@@ -2,7 +2,7 @@ import math
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
-rom scipy.stats import pearsonr
+from scipy.stats import pearsonr
 
 def scatter_with_subplots(dataframe, x_values, y_values, categories, sns_palette, figsize_x, figsize_y, title):
     # Function that creates scatterplots with auto-arranged layout    

@@ -1,235 +1,235 @@
-artist,song_name,fund_date,start_date,finish_date,price,total_additional_payments,expenses,project_type,soundbetter,spec_project,songwriter,experienced_client,difficult_client,backend_belief,backend_money_made,sync_license,fully_produced,time_tracked,status,total_hours,total_after_fees,master_ownership,song_ownership,project_hourly,days_to_finish,days_to_start
-Ibrahim K,Long As I Live,2021-11-29,2021-11-30,,0.4266666666666667,,,full production,False,False,False,False,True,False,False,False,True,True,Active,41.75,0.4266666666666667,,,0.010218666666666668,,1.0
-The Starkillers,Doesn't Sit Right,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,4.08,0.3466666666666667,,,0.084968,,387.0
-The Starkillers,Give Me A Day,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,4.32,0.3466666666666667,,,0.080248,,387.0
-The Starkillers,I Need To Escape,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,2.21,0.3466666666666667,,,0.156864,,387.0
-The Starkillers,Losing Control,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,0.0,0.3466666666666667,,,,,387.0
-The Starkillers,Say Something,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,2.83,0.3466666666666667,,,0.12249600000000001,,387.0
-The Starkillers,Takin what you wanted,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,1.0,0.3466666666666667,,,0.3466666666666667,,387.0
-The Starkillers,What Ya Doin Tonight?,2022-03-01,2023-03-23,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,True,True,Active,3.36,0.3466666666666667,,,0.10317333333333333,,387.0
-Ethan P,Lose It,2022-10-27,2022-11-07,,0.4666666666666667,,,additional production,True,False,False,False,False,False,False,False,True,True,Active,17.82,0.4205146666666667,,,0.02359733333333333,,11.0
-Caroline Lofts,Blink,2023-03-13,2023-03-14,,0.08,,,additional production,False,False,False,True,False,False,False,False,True,True,Active,6.78,0.08,,,0.0118,,1.0
-Christian Fergins ,Cool,2023-05-05,2023-05-07,,0.7333333333333333,,,full production,False,False,True,False,False,True,False,False,True,True,Active,11.99,0.7333333333333333,,,0.06116266666666667,,2.0
-Joy Tate,Chasing Danger,2023-06-25,2023-06-27,,0.5333333333333333,,,full production,False,False,True,True,False,True,False,False,True,True,Active,29.22,0.5333333333333333,0.5,0.25,0.018253333333333333,,2.0
-Ricky Asch,Fool's Hope,2023-06-30,2023-07-11,,0.7333333333333333,,,full production,False,False,True,False,False,False,False,False,True,True,Active,15.28,0.7333333333333333,,,0.047992,,11.0
-Stanley C,,2023-07-16,,,0.7333333333333333,,,full production,True,False,False,False,False,False,False,False,True,True,Active,0.0,0.6608080000000001,,,,,
-Chris Waters,Ocean View,2023-07-17,2023-07-18,,0.5333333333333333,,,full production,False,False,True,False,True,True,False,False,True,True,Active,20.17,0.5333333333333333,0.5,0.5,0.026442666666666666,,1.0
-Jake B,KPop Track,2023-08-10,2023-09-04,,0.5357333333333333,,,track production,True,False,True,False,False,False,False,False,True,True,Active,4.93,0.4827493333333333,,,0.09792,,25.0
-Leo C,Forever,2023-08-14,,,0.4,,,track production,True,False,False,False,False,False,False,False,True,True,Active,0.0,0.36044000000000004,,,,,
-Matthias K,About Him,2023-08-26,2023-09-12,,0.5333333333333333,,,additional production,True,False,False,False,False,False,False,False,True,True,Active,5.02,0.48058666666666666,,,0.09573333333333334,,17.0
-TRYBA,The Wolf,,2022-11-02,,,,,full production,False,True,True,True,False,True,False,False,False,True,Active,5.67,,,,,,
-Cody Qualls,Good Vibes,2019-09-03,2020-10-30,2021-02-16,0.4666666666666667,,0.007039999999999999,full production,False,False,True,False,False,True,False,False,True,True,Done,24.38,0.45962666666666663,,,0.018853333333333333,109.0,423.0
-Jeff,DaysGone,2019-10-10,2020-02-13,2020-04-09,0.24,,,track production,True,False,False,False,False,False,False,False,True,True,Done,12.92,0.221064,,,0.017109333333333334,56.0,126.0
-Ananya Kouds,Marble Eyes,2019-12-09,2020-02-03,2020-04-06,0.22666666666666666,,,full production,True,False,False,False,False,False,False,False,True,True,Done,23.36,0.20878400000000003,,,0.008938666666666668,63.0,56.0
-Cody G,Moving On,2020-02-13,2020-02-14,2020-05-07,0.25333333333333335,,,track production,True,False,False,False,False,False,False,False,True,True,Done,12.21,0.23334666666666665,,,0.019112,83.0,1.0
-Cameron Liddell,Fire and Floods,2020-03-30,2020-03-31,2020-06-07,0.2,,,track production,True,False,False,True,False,True,False,False,True,True,Done,11.37,0.18422133333333335,,,0.016202666666666667,68.0,1.0
-Cameron Liddell,Take It Or Leave It,2020-04-06,2020-05-07,2022-02-05,0.2,0.02666666666666667,,track production,True,False,False,True,False,True,False,False,True,True,Done,16.09,0.20878400000000003,,,0.012976,639.0,31.0
-Sasha Johst,Thank God,2020-04-08,2020-04-23,2021-03-01,0.21333333333333335,,,full production,True,False,False,True,False,False,False,False,True,True,Done,21.46,0.19650133333333333,,,0.009157333333333335,312.0,15.0
-Charles Silver Street,1RDragons,2020-04-19,2020-05-26,2020-06-30,0.25333333333333335,,,track production,True,False,False,False,False,False,False,False,True,True,Done,12.27,0.23334666666666665,,,0.019018666666666666,35.0,37.0
-Erin Roach,DFB,2020-05-04,2020-05-28,2020-07-25,0.17333333333333334,,,track production,True,False,False,False,False,False,False,False,True,True,Done,7.81,0.15965866666666667,,,0.020442666666666665,58.0,24.0
-Erin Roach,Falling Down,2020-05-04,2020-05-22,2020-06-30,0.17333333333333334,,,full production,True,False,False,False,False,False,False,False,True,True,Done,11.44,0.15965866666666667,,,0.013957333333333334,39.0,18.0
-Erin Roach,Mason,2020-05-04,2020-05-05,2020-06-08,0.08,,,mixing,True,False,False,False,False,False,False,False,True,True,Done,7.41,0.07368799999999999,,,0.009944,34.0,1.0
-Phil H - Maya,Nothing,2020-05-12,2020-07-14,2020-10-23,0.29333333333333333,,0.025066666666666668,full production,True,False,False,False,False,True,False,False,True,True,Done,25.7,0.24512266666666668,,,0.009538666666666668,101.0,63.0
-Thomas C,Holiday Romance,2020-05-22,2020-06-08,2020-06-09,0.13333333333333333,,,additional production,True,False,False,False,False,False,False,False,True,True,Done,4.89,0.12281333333333333,,,0.025114666666666667,1.0,17.0
-Sydney,If You Don't,2020-05-28,2020-07-29,2020-10-06,0.30666666666666664,,,full production,True,False,False,False,False,False,False,False,True,True,Done,17.41,0.282472,,,0.016224000000000002,69.0,62.0
-Sam Theller,ILDCT,2020-05-29,2020-07-07,2020-10-15,0.32,,,full production,True,False,False,False,False,False,False,False,True,True,Done,25.17,0.29475199999999996,,,0.011709333333333332,100.0,39.0
-Convergent R,Bleed 22,2020-06-02,2020-06-04,2020-06-24,0.024,,,mastering,True,False,False,False,False,False,False,False,False,True,Done,1.77,0.022106666666666667,,,0.012490666666666667,20.0,2.0
-Ibrahim K,BFF,2020-06-08,2020-10-15,2021-10-27,0.22666666666666666,0.25333333333333335,,full production,True,False,False,False,False,False,False,False,True,True,Done,27.62,0.442128,,,0.016008,377.0,129.0
-Caroline L,Only The Good,2020-06-15,2020-08-24,2020-10-06,0.22666666666666666,0.22666666666666666,0.037333333333333336,track production,True,False,False,True,False,True,False,False,True,True,Done,21.43,0.38023199999999996,,,0.017744000000000003,43.0,70.0
-Eguala,La Neverita,2020-07-09,2020-09-14,2020-11-14,0.21333333333333335,,,track production,True,False,False,False,True,False,False,False,True,True,Done,16.68,0.19650133333333333,,,0.011781333333333333,61.0,67.0
-George A,Happy,2020-07-24,2020-12-15,2021-01-30,0.22666666666666666,0.16,,track production,True,False,False,False,False,False,False,False,True,True,Done,12.44,0.35616,,,0.028629333333333333,46.0,144.0
-Eric C,"Song Called ""True""",2020-08-04,2021-03-08,2021-07-09,0.22666666666666666,0.06666666666666667,,track production,True,False,False,False,False,False,False,False,True,True,Done,9.65,0.27018933333333334,,,0.028,123.0,216.0
-Franky C,lgo,2020-08-04,2020-10-20,2020-10-24,0.22666666666666666,,,track production,True,False,False,False,False,False,False,False,True,True,Done,6.23,0.20878400000000003,,,0.033512,4.0,77.0
-Justine G,Hiatus,2020-08-28,2021-03-03,2021-06-23,0.22666666666666666,0.013333333333333334,,track production,True,False,False,False,False,False,False,False,True,True,Done,13.92,0.221064,,,0.01588,112.0,187.0
-Erin R,Fake Healing,2020-09-10,2021-05-30,2021-07-28,0.17333333333333334,,,full production,True,False,False,False,False,False,False,False,True,True,Done,13.59,0.15965866666666667,,,0.011749333333333334,59.0,262.0
-Ayla Janssens,Careless,2020-09-16,2021-02-02,2022-05-20,0.22666666666666666,0.09333333333333334,0.004229333333333333,full production,True,False,False,True,False,False,False,False,True,True,Done,26.92,0.29052266666666665,,,0.010792,472.0,139.0
-Jon Omen,Starkiller,2020-10-20,2021-06-17,2022-02-02,0.2,,,full production,False,False,True,True,False,True,False,False,True,True,Done,17.5,0.2,,,0.011429333333333333,230.0,240.0
-Caroline L,Think About You,2020-10-22,2020-10-24,2020-12-09,0.37333333333333335,,,full production,False,False,False,True,False,False,False,False,True,True,Done,23.41,0.37333333333333335,,,0.015946666666666665,46.0,2.0
-James Rosenberg,Give It A Try,2020-10-27,2020-10-29,2020-11-27,0.36784,0.09333333333333334,,full production,False,False,False,True,True,False,False,False,True,True,Done,33.85,0.4611733333333334,,,0.013624,29.0,2.0
-Tayla W,Wrong Direction,2020-11-02,2021-04-12,2021-08-14,0.37333333333333335,,,full production,True,False,False,False,False,False,False,False,True,True,Done,18.89,0.3438773333333333,,,0.018205333333333334,124.0,161.0
-Gabriel J,You Don't Know,2020-11-12,2021-05-27,2021-08-04,0.25333333333333335,,,track production,True,False,False,False,False,False,False,False,True,True,Done,5.26,0.23334666666666665,,,0.04436266666666667,69.0,196.0
-Terry B,One Day at a Time,2020-11-12,2021-02-09,2021-02-26,0.25333333333333335,,,track production,True,False,False,False,False,False,False,False,True,True,Done,15.87,0.23334666666666665,,,0.014704,17.0,89.0
-Shane H,Psalm 39,2020-11-15,2020-11-20,2021-02-10,0.32,,0.16,full production,True,False,False,False,False,False,False,False,True,True,Done,12.45,0.134752,,,0.010824,82.0,5.0
-Flavio M,Cover It Up Radio Edit,2020-11-23,2020-11-23,2021-01-30,0.064,,,additional production,True,False,False,False,True,False,False,False,False,True,Done,2.08,0.05894933333333333,,,0.028341333333333333,68.0,0.0
-Caroline L,Fire and Smoke,2020-12-02,2020-12-13,2020-12-19,0.32,,,full production,False,False,False,True,False,False,False,False,False,True,Done,12.15,0.32,,,0.026338666666666666,6.0,11.0
-Madilyn Paige,Sinking,2020-12-16,2020-12-28,2021-05-08,0.4,,,full production,False,False,True,True,False,True,True,False,True,True,Done,34.47,0.4,,,0.011605333333333334,131.0,12.0
-Caroline L,Worst of Me,2020-12-27,2020-12-28,2021-01-05,0.21333333333333335,,,full production,False,False,False,True,False,False,False,False,True,True,Done,8.42,0.21333333333333335,,,0.025336,8.0,1.0
-Eguala,TRE.MEN.DA,2021-01-24,2021-01-25,2021-03-08,0.10666666666666667,0.013333333333333334,,mixing,True,False,False,False,True,False,False,False,True,True,Done,10.23,0.11053333333333333,,,0.010805333333333333,42.0,1.0
-The Starkillers,Are You Thinking of Me,2021-02-10,2021-03-24,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,16.85,0.3022213333333333,,,0.017936,271.0,42.0
-The Starkillers,Moonlight,2021-02-10,2021-03-23,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,20.08,0.3022213333333333,,,0.015050666666666665,272.0,41.0
-The Starkillers,Here With You,2021-02-10,2021-03-22,2021-12-20,0.29629599999999995,0.005928,,full production,False,False,False,True,False,True,False,False,True,True,Done,17.29,0.302224,,,0.01748,273.0,40.0
-The Starkillers,Closer,2021-02-10,2021-03-21,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,16.54,0.3022213333333333,,,0.018272,274.0,39.0
-The Starkillers,Cannibal,2021-02-10,2021-03-20,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,14.97,0.3022213333333333,,,0.02018933333333333,275.0,38.0
-The Starkillers,Close To The End,2021-02-10,2021-03-20,2021-12-20,0.29629599999999995,0.005928,,full production,False,False,False,True,False,True,False,False,True,True,Done,17.48,0.302224,,,0.017290666666666666,275.0,38.0
-The Starkillers,You And I,2021-02-10,2021-03-20,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,19.79,0.3022213333333333,,,0.015272,275.0,38.0
-The Starkillers,Leave Me Alone,2021-02-10,2021-03-19,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,17.44,0.3022213333333333,,,0.017328,276.0,37.0
-Sam Theller,Make Love Moon,2021-02-13,2021-05-14,2021-08-29,0.24,0.08,,full production,False,False,False,False,False,True,False,False,True,True,Done,15.67,0.32,,,0.020421333333333333,107.0,90.0
-George A,Behind,2021-02-25,2021-03-05,2021-04-19,0.18666666666666668,,0.05333333333333334,track production,True,False,False,False,False,False,False,False,True,True,Done,9.65,0.11860533333333333,,,0.012290666666666667,45.0,8.0
-The Starkillers,Eyes Like Fire,2021-03-23,2021-03-24,2021-12-20,0.29629599999999995,0.005925333333333333,,full production,False,False,False,True,False,True,False,False,True,True,Done,17.36,0.3022213333333333,,,0.017408,271.0,1.0
-Jon Omen,Burn the Boats,2021-06-15,2021-06-16,2021-06-24,0.12,,,vocal production,False,False,False,True,False,False,False,False,True,True,Done,8.94,0.12,,,0.013424,8.0,1.0
-Jon Omen,Starkiller Vocals,2021-06-16,2021-06-19,2021-06-24,0.12,,,vocal production,False,False,False,True,False,False,False,False,False,True,Done,9.83,0.12,,,0.012208,5.0,3.0
-Jon Omen,Take It Or Leave Vocals,2021-06-16,2021-06-18,2021-06-24,0.12,,,vocal production,False,False,False,True,False,False,False,False,False,True,Done,8.91,0.12,,,0.013469333333333333,6.0,2.0
-Jon Omen,When We Fight,2021-06-16,2021-06-17,2021-06-24,0.12,,,vocal production,False,False,False,True,False,False,False,False,True,True,Done,4.81,0.12,,,0.024949333333333334,7.0,1.0
-Erin R,Fake Healing Vocals,2021-07-13,2021-07-14,2021-07-28,0.12,,,vocal production,False,False,False,False,False,False,False,False,True,True,Done,9.04,0.12,,,0.013274666666666667,14.0,1.0
-Gabriel J,You Don't Know Vocals,2021-08-16,2021-08-28,2021-09-01,0.17333333333333334,,0.06666666666666667,vocal production,True,False,False,False,False,False,False,False,False,True,Done,1.42,0.092992,,,0.065488,4.0,12.0
-Henry K,You In Dreams,2021-08-26,2021-08-27,2021-08-29,0.18666666666666668,,,additional production,True,False,False,True,False,False,False,False,True,True,Done,6.9,0.17193866666666666,,,0.024917333333333333,2.0,1.0
-Sam Theller,Help Me Home,2021-09-06,2021-09-07,2022-08-24,0.37333333333333335,,,full production,False,False,False,False,False,False,False,False,True,True,Done,30.69,0.37333333333333335,,,0.012165333333333332,351.0,1.0
-Gabriel J,Back In Town,2021-09-27,2022-01-11,2023-08-12,0.25333333333333335,,,full production,True,False,True,False,False,False,False,False,True,True,Done,18.08,0.23334666666666665,,,0.012906666666666667,578.0,106.0
-Stefan Sandh,Song #32,2021-10-20,2021-11-01,2021-11-02,0.15271466666666667,,,mixing,False,False,False,False,False,False,False,False,True,True,Done,2.53,0.15271466666666667,,,0.06036266666666667,1.0,12.0
-ZackSympsonMusic,It's Not The End,2021-11-24,2021-12-23,2022-01-09,0.4,0.09333333333333334,,full production,True,False,False,False,False,False,False,False,True,True,Done,13.96,0.45441066666666663,,,0.032552,17.0,29.0
-Flavio M,Cover Me Up Edit 2,2021-11-29,2021-11-30,2021-12-07,0.03333333333333333,,,production tweak,True,False,False,False,False,False,False,False,True,True,Done,0.5,0.030704,,,0.061408,7.0,1.0
-Ibrahim K,Never Felt Love,2021-12-05,2021-12-06,2021-12-15,0.16559200000000002,,,additional production,False,False,False,False,True,False,False,False,True,True,Done,4.7,0.16559200000000002,,,0.035232,9.0,1.0
-Caroline Lofts,Everyone Is Going Mad,2022-01-03,2022-01-18,2022-03-08,0.37333333333333335,,,full production,False,False,False,True,False,False,False,False,True,True,Done,15.09,0.37333333333333335,,,0.024741333333333334,49.0,15.0
-Evan James,He Does It Better,2022-02-08,2022-02-09,2022-05-17,0.4,,,full production,False,False,True,False,False,True,False,False,True,True,Done,34.56,0.4,,,0.011573333333333333,97.0,1.0
-Ayla Janssens,be you tiful,2022-02-11,2022-02-15,2022-07-26,0.26666666666666666,,0.014890666666666668,full production,False,False,False,True,False,True,False,False,True,True,Done,21.91,0.251776,,,0.011490666666666668,161.0,4.0
-Sasha Johst,Little Things,2022-03-16,2022-03-31,2022-11-10,0.29333333333333333,,0.023637333333333333,full production,False,False,False,True,False,False,False,False,True,True,Done,22.28,0.269696,,,0.012104,224.0,15.0
-Ayla Janssens,Golden Thread,2022-03-16,2022-03-30,2022-05-19,0.26666666666666666,,0.011968000000000001,full production,False,False,False,True,False,True,False,False,True,True,Done,11.35,0.2546986666666667,,,0.02244,50.0,14.0
-Ayla Janssens,CO2,2022-04-01,2022-04-05,2022-11-16,0.26666666666666666,,0.014933333333333333,full production,False,False,False,True,False,False,False,False,True,True,Done,20.37,0.2517333333333333,,,0.012357333333333335,225.0,4.0
-Stefan Sandh,#53,2022-04-06,2022-04-13,2022-04-15,0.16,,0.007285333333333334,mixing,False,False,False,False,False,False,False,False,True,True,Done,2.98,0.15271466666666667,,,0.05124533333333333,2.0,7.0
-Henry K,Escape Plan,2022-06-22,2022-06-23,2022-07-29,0.5333333333333333,0.13333333333333333,,additional production,True,False,False,True,False,False,False,False,True,True,Done,24.42,0.6140666666666666,,,0.025146666666666664,36.0,1.0
-Ayla Janssens,Life Saver,2022-07-06,2022-08-10,2022-11-16,0.26666666666666666,,0.0152,full production,False,False,False,True,False,False,False,False,True,True,Done,9.84,0.25146666666666667,,,0.025554666666666667,98.0,35.0
-The Starkillers,Album 2 Preproduction,2022-07-06,2022-07-07,2022-07-11,0.08,,,pre production,False,False,False,True,False,False,False,False,False,True,Done,6.17,0.08,,,0.012965333333333332,4.0,1.0
-Leo C,Glow,2022-07-12,2022-09-26,2022-10-22,0.4,,,full production,True,False,False,True,False,False,False,False,True,True,Done,5.21,0.36844000000000005,,,0.07071733333333333,26.0,76.0
-Ayla Janssens,Y ,2022-08-21,2022-08-30,2022-11-16,0.26666666666666666,,0.019466666666666667,full production,False,False,False,True,False,False,False,False,True,True,Done,12.79,0.2472,,,0.019328,78.0,9.0
-Ayla Janssens,Good Can Be True,2022-09-20,2022-10-07,2023-01-17,0.26666666666666666,,0.020266666666666665,full production,False,False,False,True,False,False,False,False,True,True,Done,13.27,0.2464,,,0.018567999999999998,102.0,17.0
-Michael L,All I Want Is You (Dm),2022-10-04,2022-10-05,2022-10-06,0.04,,,production tweak,True,False,False,False,False,False,False,False,True,True,Done,0.6,0.03684533333333333,,,0.061408,1.0,1.0
-Karina,All Ours,2022-11-16,2022-11-20,2023-03-28,1.0,,,full production,True,False,True,False,False,True,False,False,True,True,Done,32.52,0.9011013333333333,,,0.027709333333333332,128.0,4.0
-Angela Layman,Red,2022-11-30,2022-12-05,2023-01-17,0.6933333333333334,,,full production,False,False,False,False,True,False,False,False,True,True,Done,29.1,0.6933333333333334,,,0.023826666666666666,43.0,5.0
-Christian Fergins,Why Do I Love You,2022-12-06,2022-12-11,2023-02-28,0.7333333333333333,,,full production,True,False,True,False,False,True,False,False,True,True,Done,25.7,0.6608080000000001,0.03,,0.025712,79.0,5.0
-Angela Heart,Worst of Me - Vocals,2023-02-07,2023-02-23,2023-03-31,0.32,,,vocal production,False,False,False,False,True,False,False,False,False,True,Done,11.23,0.32,0.0,,0.028496,36.0,16.0
-Chris Waters,Blue to Purple,2023-02-25,2023-03-04,2023-04-02,0.5501333333333334,,,full production,True,False,True,False,False,True,False,False,True,True,Done,16.54,0.49572533333333335,0.5,0.5,0.029970666666666666,29.0,7.0
-Elliot Saldivar,Everybody Wants You,2023-03-03,2023-03-06,2023-03-09,0.02,,,mastering,True,False,False,False,False,False,False,False,True,True,Done,0.23,0.018021333333333334,0.0,,0.07835466666666666,3.0,3.0
-Garen C,Lonely,2023-03-29,2023-04-11,2023-05-19,0.7333333333333333,,,full production,True,False,False,False,False,False,False,False,True,True,Done,16.26,0.6608080000000001,0.0,,0.04064,38.0,13.0
-Christian Fergins,Good In Goodbye,2023-04-07,2023-04-08,2023-06-26,0.7333333333333333,,,full production,False,False,True,False,False,True,False,False,True,True,Done,17.6,0.7333333333333333,0.03,,0.041666666666666664,79.0,1.0
-Caroline Lofts,Worst of Me - Male Vox,2023-04-19,2023-04-20,2023-04-27,0.05333333333333334,,,vocal production,False,False,False,True,False,False,False,False,False,True,Done,2.12,0.05333333333333334,0.0,,0.025157333333333334,7.0,1.0
-Ricky S,Bring Me Back,2023-05-11,2023-05-22,2023-06-27,0.7333333333333333,,,full production,True,False,True,False,False,False,False,False,True,True,Done,28.2,0.6608080000000001,0.03,,0.023432,36.0,11.0
-Caroline Lofts,Home - Vocals,2023-05-22,2023-05-23,2023-07-03,0.21333333333333335,,,vocal production,False,False,False,True,False,False,False,False,False,True,Done,7.18,0.21333333333333335,0.0,,0.029712,41.0,1.0
-Maia Moham,You Give Me Power,,2023-02-17,2023-06-02,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,18.2,,,,,105.0,
-SAABS,You Can't Run,,2023-02-16,2023-03-08,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,20.0,
-Mavenne,Doesn't Belong To You,,2023-02-15,2023-03-08,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,13.69,,,,,21.0,
-Mavenne,Lose Me,,2022-10-14,2022-10-25,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,21.11,,,,,11.0,
-Eloise Viola,I'm Good,,2022-10-13,2022-10-13,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,20.67,,,,,0.0,
-Maia Moham,Fearless,,2022-10-12,2022-10-25,,,,full production,False,True,True,True,False,True,True,True,True,True,Done,16.59,,,,,13.0,
-AMiR,Victory,,2022-01-06,2022-03-14,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,0.0,,,,,67.0,
-AMiR,Turnin It Up,,2021-10-22,2021-11-03,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,14.86,,,,,12.0,
-Mavenne,Before The Storm,,2021-10-21,2021-11-01,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,19.94,,,,,11.0,
-Filipa,When The Lights Go,,2021-10-20,2021-11-02,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,22.25,,,,,13.0,
-Jewels Gold,Above The Noise,,2020-11-01,2020-11-07,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,19.25,,,,,6.0,
-Mavenne,My Own Place,,2020-09-03,2020-09-09,,,,full production,False,True,True,True,False,True,True,True,True,True,Done,22.88,,,,,6.0,
-Alexis Lynn,Our World To Choose,,2020-09-02,2020-09-09,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,25.48,,,,,7.0,
-Jewels Gold,Feelin It,,2020-09-01,2020-09-09,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,19.53,,,,,8.0,
-Shani,Wow,,2020-02-24,2020-04-21,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,8.07,,,,,57.0,
-Pam,Already Here,,2020-02-19,2020-08-29,,,,songwriting,False,True,True,True,False,True,False,False,False,True,Done,18.08,,,,,192.0,
-Noy,Manishma Machine,,2020-02-04,2020-05-13,,,,full production,False,True,True,True,False,True,False,False,True,True,Done,29.35,,,,,99.0,
-Alissa Moreno,Love So Bad,,,2018-09-09,,,,full production,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Alissa Moreno,Mess With Me,,,2018-08-08,,,,full production,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Alissa Moreno,Who Needs Air,,,2018-10-24,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-AOMM,Binge One Me,,,2019-10-02,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-AOMM,Bold and Wild,,,2018-10-23,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-AOMM,Don't Forget Me,,,2015-03-27,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-AOMM,Love On The Front Lines,,,2015-03-27,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-AOMM,Staggered,,,2019-10-02,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-AOMM,This Flame,,,2019-10-02,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-awkwardarm,Fresh Gold,,,2022-08-22,,,,songwriting,False,True,True,True,False,True,False,False,False,True,Done,6.18,,,,,,
-Brandi Rose,Eleven Eleven,,,2019-11-13,,,,additional production,False,False,False,True,False,False,False,False,True,False,Done,,,,,,,
-Caroline,Manipulate Her,,,2022-09-09,,,,songwriting,False,True,True,False,False,False,False,False,False,True,Done,5.45,,,,,,
-Chloe Tang,Say It Like It Hurts,,,2018-05-15,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-Filipa,In Hell,,,2022-02-14,,,,full production,False,True,True,True,False,True,False,False,False,True,Done,0.0,,,,,,
-Gabriela Bee,Something More,,,2018-06-22,,,,full production,True,False,True,True,False,True,False,False,True,False,Done,,,,,,,
-Gabriela Bee,Sound In Color,,,2018-01-03,,,,full production,True,False,True,True,False,True,True,False,True,False,Done,,,,,,,
-Gina Baez,My Time,,,2017-07-07,,,,full production,True,False,True,True,False,True,False,False,True,False,Done,,,,,,,
-JOAN,Didn't See Me Comin,,,2021-01-20,,,,additional production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-JOAN,Go Your Own Way,,,2019-03-28,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-JOAN,Queen of the World,,,2019-01-17,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-Joel Ansett,Long Way Round,,,2018-10-17,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-LIndsey Trefz,All The Way Gone,,,2017-08-02,,,,full production,True,False,False,False,False,False,False,False,True,False,Done,,,,,,,
-Lindsey Trefz,Faceless Man,,,2017-08-02,,,,full production,True,False,False,False,False,False,False,False,True,False,Done,,,,,,,
-Louis Torre,Waves,,,2017-07-26,,,,full production,True,False,False,True,False,True,False,False,True,False,Done,,,,,,,
-Mati Lyons,Practice 4 Me,,,2018-11-24,,,,full production,True,True,True,False,False,True,False,False,True,False,Done,,,,,,,
-MQ,All My Life,,,2021-06-21,,,,full production,False,True,True,True,False,False,False,False,False,False,Done,,,,,,,
-MQ,brunk (broke and drunk),,,2022-01-06,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,For Your Own Protection,,,2021-07-21,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Ins and Outs,,,2022-02-04,,,,full production,False,True,True,True,False,False,False,False,False,False,Done,,,,,,,
-MQ,Look What I've Become,,,2021-03-17,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Messy Ruckus,,,2021-04-14,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Please You,,,2021-08-16,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Run to Me,,,2022-04-06,,,,full production,False,True,True,True,False,False,False,False,False,False,Done,,,,,,,
-MQ,Soulless Hunter,,,2021-08-27,,,,full production,False,True,True,True,False,False,False,False,False,False,Done,,,,,,,
-MQ,Stay For The Show,,,2021-02-26,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Suddenly It's Autumn,,,2022-04-01,,,,full production,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-MQ,This Is How It Starts,,,2020-02-19,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Thriller Party,,,2021-04-21,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Trouble Never Comes Alone,,,2021-05-14,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Turn Me Up Loud,,,2022-01-06,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Underground,,,2021-09-10,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Wicked Ways,,,2021-09-10,,,,full production,False,True,True,True,False,True,True,True,True,False,Done,,,,,,,
-MQ,Work For It,,,2021-10-01,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-MQ,Your Sky,,,2021-08-27,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-Neethusha Cherckal,Why Did I Lose You,,,2017-08-07,,,,full production,True,False,False,False,True,True,False,False,True,False,Done,,,,,,,
-Rachel Pearl,Get A Real Girl Goin,,,2018-06-06,,,,songwriting,False,True,True,True,False,False,False,False,False,False,Done,,,,,,,
-Randy Ramirez,Taking Over,,,2018-06-08,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Roseport,Dynamite Boom,,,2019-05-11,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-Sandor Nevery,Moving Statue,,,2016-09-12,,,,full production,True,True,False,False,False,False,False,False,True,False,Done,,,,,,,
-TRYBA,All Systems Go,,,2018-09-18,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Can't Take Our Youth,,,2017-11-14,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Edge of Nowhere,,,2014-12-31,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Feel Alive,,,2020-03-21,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Get Lost,,,2013-01-01,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,I Can Dance,,,2019-10-07,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Leaving Cold,,,2016-03-19,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Magnetic You,,,2019-10-01,,,,full production,False,True,True,True,False,False,False,False,False,False,Done,,,,,,,
-TRYBA,Night Blind,,,2015-10-28,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-TRYBA,Night Riders,,,2016-03-08,,,,full production,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-TRYBA,Together,,,2022-09-21,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Will Jay,Columbus,,,2016-01-22,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Will Jay,Encore,,,2016-11-05,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Will Jay,Forget You Forgot,,,2015-11-05,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-Will Jay,Who am I,,,2016-09-30,,,,full production,False,True,True,True,False,True,False,False,True,False,Done,,,,,,,
-YORXE,Always Sunny In Texas,,,2022-05-23,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Bang Bang,,,2020-02-14,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,believe in,,,2021-08-08,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Black Dog,,,2021-08-05,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Bright Bright Bright Day,,,2021-11-17,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Down With Me,,,2020-06-16,,,,full production,False,True,True,True,False,True,True,True,True,False,Done,,,,,,,
-YORXE,drugs aren't free,,,2021-05-12,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,First Blood,,,2021-06-01,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Gone For Good,,,2022-06-11,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Hide Your Bodies,,,2020-02-14,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Hot Mess Kamikaze,,,2020-07-29,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Human Condition,,,2021-10-12,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Like Me,,,2020-06-03,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,man on the horse,,,2021-07-08,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Ms. Hampton (Ms. Plastic),,,2021-03-17,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,My Name Is Violence,,,2022-06-03,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Out My Tree,,,2020-10-28,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Pablo,,,2020-11-18,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,People Are Strange,,,2021-08-13,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Questions Later,,,2022-02-01,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Raise Me Up,,,2022-02-18,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Reaction,,,2022-06-10,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Sheriff,,,2021-04-08,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,Stay WIth Me,,,2022-06-10,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,The Monday Song,,,2022-05-25,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-YORXE,The Reaper,,,2022-05-27,,,,full production,False,True,True,True,False,True,True,False,True,False,Done,,,,,,,
-,In Hollywood,,,2020-09-25,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-,Let Em Burn,,,2018-09-19,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-,mass hysteria,,,2021-02-24,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-,Rising,,,2019-10-14,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-,That Sound,,,2018-04-10,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-,White Noise,,,2020-02-21,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-,With Or Without Us,,,2018-10-18,,,,songwriting,False,True,True,True,False,True,False,False,False,False,Done,,,,,,,
-Lindsey Trefz,,2018-10-14,2018-10-15,,0.22666666666666666,,,track production,True,False,False,False,False,False,False,False,False,False,Paused,,,,,,,1.0
-margaux,Pieces,2020-01-16,2020-02-12,,0.32,,,full production,True,False,False,False,False,False,False,False,False,True,Paused,11.51,0.29475199999999996,,,0.025608,,27.0
-Dominick M,LGBT,2020-04-17,2020-07-14,,0.3466666666666667,,0.08,full production,True,False,False,False,False,False,False,False,False,True,Paused,16.8,0.23931466666666665,,,0.014245333333333334,,88.0
-Frank,Succeeder,2020-05-02,2020-05-18,,0.22666666666666666,,,track production,True,False,False,False,False,False,False,False,False,True,Paused,3.17,0.20878400000000003,,,0.06586133333333333,,16.0
-BAREI,DuaJackson,2020-05-06,2020-06-09,,0.22666666666666666,,,track production,True,False,False,False,False,False,False,False,False,True,Paused,5.41,0.20878400000000003,,,0.038592,,34.0
-Kyle M,Oblivion,2020-05-21,,,0.22666666666666666,,,track production,True,False,False,False,False,False,False,False,False,True,Paused,0.0,0.20878400000000003,,,,,
-Zaiden,Slime,2020-05-27,2020-06-07,,0.05333333333333334,,,mastering,True,False,False,False,False,False,False,False,False,True,Paused,1.1,0.04912533333333333,,,0.044658666666666666,,11.0
-Erin R,Magnet,2020-10-04,2021-09-25,,0.17333333333333334,,,full production,True,False,False,False,False,False,False,False,False,True,Paused,3.51,0.15965866666666667,,,0.045488,,356.0
-The Starkillers,Run and Hide,2022-03-01,,,0.3466666666666667,,,full production,False,False,False,True,False,True,False,False,False,False,Paused,,,,,,,
-SISSI,Better Now,,2023-05-08,,,,,songwriting,False,True,True,True,False,True,False,False,False,True,Paused,2.65,,,,,,
-SISSI,Truth,,2023-04-21,,,,,songwriting,False,True,True,True,False,True,False,False,False,True,Paused,1.78,,,,,,
-SISSI,Shadows,,2023-04-11,,,,,songwriting,False,True,True,True,False,True,False,False,False,True,Paused,3.26,,,,,,
-Mavenne x awkwardarm,Don't Leave Me,,2022-09-28,,,,,full production,False,True,True,True,False,True,False,False,False,True,Paused,0.0,,,,,,
-Mariia,Dancing Around The Truth,,2020-05-08,,,,,full production,False,True,True,True,False,True,False,False,False,True,Paused,0.0,,,,,,
-Merry Ellen,Look Good On Me,,2020-03-11,,,,,songwriting,False,True,True,True,False,True,False,False,False,True,Paused,2.35,,,,,,
+fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_after_fees,total_hours,status,project_type,master_ownership,song_ownership,time_tracked,soundbetter,spec_project,experienced_client,difficult_client,backend_belief,backend_money_made,sync_license,fully_produced,songwriter,project_hourly,days_to_finish,days_to_start
+2021-11-29,2021-11-30,,0.4266666666666667,,,0.4266666666666667,41.75,Active,full production,,,True,False,False,False,True,False,False,False,True,False,0.010218666666666668,,1.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,4.08,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.084968,,387.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,4.32,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.080248,,387.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,2.21,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.156864,,387.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,0.0,Active,full production,,,True,False,False,True,False,True,False,False,True,False,,,387.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,2.83,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.12249600000000001,,387.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,1.0,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.3466666666666667,,387.0
+2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,3.36,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.10317333333333333,,387.0
+2022-10-27,2022-11-07,,0.4666666666666667,,,0.4205146666666667,17.82,Active,additional production,,,True,True,False,False,False,False,False,False,True,False,0.02359733333333333,,11.0
+2023-03-13,2023-03-14,,0.08,,,0.08,6.78,Active,additional production,,,True,False,False,True,False,False,False,False,True,False,0.0118,,1.0
+2023-05-05,2023-05-07,,0.7333333333333333,,,0.7333333333333333,11.99,Active,full production,,,True,False,False,False,False,True,False,False,True,True,0.06116266666666667,,2.0
+2023-06-25,2023-06-27,,0.5333333333333333,,,0.5333333333333333,29.22,Active,full production,0.5,0.25,True,False,False,True,False,True,False,False,True,True,0.018253333333333333,,2.0
+2023-06-30,2023-07-11,,0.7333333333333333,,,0.7333333333333333,15.28,Active,full production,,,True,False,False,False,False,False,False,False,True,True,0.047992,,11.0
+2023-07-16,,,0.7333333333333333,,,0.6608080000000001,0.0,Active,full production,,,True,True,False,False,False,False,False,False,True,False,,,
+2023-07-17,2023-07-18,,0.5333333333333333,,,0.5333333333333333,20.17,Active,full production,0.5,0.5,True,False,False,False,True,True,False,False,True,True,0.026442666666666666,,1.0
+2023-08-10,2023-09-04,,0.5357333333333333,,,0.4827493333333333,4.93,Active,track production,,,True,True,False,False,False,False,False,False,True,True,0.09792,,25.0
+2023-08-14,,,0.4,,,0.36044000000000004,0.0,Active,track production,,,True,True,False,False,False,False,False,False,True,False,,,
+2023-08-26,2023-09-12,,0.5333333333333333,,,0.48058666666666666,5.02,Active,additional production,,,True,True,False,False,False,False,False,False,True,False,0.09573333333333334,,17.0
+,2022-11-02,,,,,,5.67,Active,full production,,,True,False,True,True,False,True,False,False,False,True,,,
+2019-09-03,2020-10-30,2021-02-16,0.4666666666666667,,0.007039999999999999,0.45962666666666663,24.38,Done,full production,,,True,False,False,False,False,True,False,False,True,True,0.018853333333333333,109.0,423.0
+2019-10-10,2020-02-13,2020-04-09,0.24,,,0.221064,12.92,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.017109333333333334,56.0,126.0
+2019-12-09,2020-02-03,2020-04-06,0.22666666666666666,,,0.20878400000000003,23.36,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.008938666666666668,63.0,56.0
+2020-02-13,2020-02-14,2020-05-07,0.25333333333333335,,,0.23334666666666665,12.21,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.019112,83.0,1.0
+2020-03-30,2020-03-31,2020-06-07,0.2,,,0.18422133333333335,11.37,Done,track production,,,True,True,False,True,False,True,False,False,True,False,0.016202666666666667,68.0,1.0
+2020-04-06,2020-05-07,2022-02-05,0.2,0.02666666666666667,,0.20878400000000003,16.09,Done,track production,,,True,True,False,True,False,True,False,False,True,False,0.012976,639.0,31.0
+2020-04-08,2020-04-23,2021-03-01,0.21333333333333335,,,0.19650133333333333,21.46,Done,full production,,,True,True,False,True,False,False,False,False,True,False,0.009157333333333335,312.0,15.0
+2020-04-19,2020-05-26,2020-06-30,0.25333333333333335,,,0.23334666666666665,12.27,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.019018666666666666,35.0,37.0
+2020-05-04,2020-05-28,2020-07-25,0.17333333333333334,,,0.15965866666666667,7.81,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.020442666666666665,58.0,24.0
+2020-05-04,2020-05-22,2020-06-30,0.17333333333333334,,,0.15965866666666667,11.44,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.013957333333333334,39.0,18.0
+2020-05-04,2020-05-05,2020-06-08,0.08,,,0.07368799999999999,7.41,Done,mixing,,,True,True,False,False,False,False,False,False,True,False,0.009944,34.0,1.0
+2020-05-12,2020-07-14,2020-10-23,0.29333333333333333,,0.025066666666666668,0.24512266666666668,25.7,Done,full production,,,True,True,False,False,False,True,False,False,True,False,0.009538666666666668,101.0,63.0
+2020-05-22,2020-06-08,2020-06-09,0.13333333333333333,,,0.12281333333333333,4.89,Done,additional production,,,True,True,False,False,False,False,False,False,True,False,0.025114666666666667,1.0,17.0
+2020-05-28,2020-07-29,2020-10-06,0.30666666666666664,,,0.282472,17.41,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.016224000000000002,69.0,62.0
+2020-05-29,2020-07-07,2020-10-15,0.32,,,0.29475199999999996,25.17,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.011709333333333332,100.0,39.0
+2020-06-02,2020-06-04,2020-06-24,0.024,,,0.022106666666666667,1.77,Done,mastering,,,True,True,False,False,False,False,False,False,False,False,0.012490666666666667,20.0,2.0
+2020-06-08,2020-10-15,2021-10-27,0.22666666666666666,0.25333333333333335,,0.442128,27.62,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.016008,377.0,129.0
+2020-06-15,2020-08-24,2020-10-06,0.22666666666666666,0.22666666666666666,0.037333333333333336,0.38023199999999996,21.43,Done,track production,,,True,True,False,True,False,True,False,False,True,False,0.017744000000000003,43.0,70.0
+2020-07-09,2020-09-14,2020-11-14,0.21333333333333335,,,0.19650133333333333,16.68,Done,track production,,,True,True,False,False,True,False,False,False,True,False,0.011781333333333333,61.0,67.0
+2020-07-24,2020-12-15,2021-01-30,0.22666666666666666,0.16,,0.35616,12.44,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.028629333333333333,46.0,144.0
+2020-08-04,2021-03-08,2021-07-09,0.22666666666666666,0.06666666666666667,,0.27018933333333334,9.65,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.028,123.0,216.0
+2020-08-04,2020-10-20,2020-10-24,0.22666666666666666,,,0.20878400000000003,6.23,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.033512,4.0,77.0
+2020-08-28,2021-03-03,2021-06-23,0.22666666666666666,0.013333333333333334,,0.221064,13.92,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.01588,112.0,187.0
+2020-09-10,2021-05-30,2021-07-28,0.17333333333333334,,,0.15965866666666667,13.59,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.011749333333333334,59.0,262.0
+2020-09-16,2021-02-02,2022-05-20,0.22666666666666666,0.09333333333333334,0.004229333333333333,0.29052266666666665,26.92,Done,full production,,,True,True,False,True,False,False,False,False,True,False,0.010792,472.0,139.0
+2020-10-20,2021-06-17,2022-02-02,0.2,,,0.2,17.5,Done,full production,,,True,False,False,True,False,True,False,False,True,True,0.011429333333333333,230.0,240.0
+2020-10-22,2020-10-24,2020-12-09,0.37333333333333335,,,0.37333333333333335,23.41,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.015946666666666665,46.0,2.0
+2020-10-27,2020-10-29,2020-11-27,0.36784,0.09333333333333334,,0.4611733333333334,33.85,Done,full production,,,True,False,False,True,True,False,False,False,True,False,0.013624,29.0,2.0
+2020-11-02,2021-04-12,2021-08-14,0.37333333333333335,,,0.3438773333333333,18.89,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.018205333333333334,124.0,161.0
+2020-11-12,2021-05-27,2021-08-04,0.25333333333333335,,,0.23334666666666665,5.26,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.04436266666666667,69.0,196.0
+2020-11-12,2021-02-09,2021-02-26,0.25333333333333335,,,0.23334666666666665,15.87,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.014704,17.0,89.0
+2020-11-15,2020-11-20,2021-02-10,0.32,,0.16,0.134752,12.45,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.010824,82.0,5.0
+2020-11-23,2020-11-23,2021-01-30,0.064,,,0.05894933333333333,2.08,Done,additional production,,,True,True,False,False,True,False,False,False,False,False,0.028341333333333333,68.0,0.0
+2020-12-02,2020-12-13,2020-12-19,0.32,,,0.32,12.15,Done,full production,,,True,False,False,True,False,False,False,False,False,False,0.026338666666666666,6.0,11.0
+2020-12-16,2020-12-28,2021-05-08,0.4,,,0.4,34.47,Done,full production,,,True,False,False,True,False,True,True,False,True,True,0.011605333333333334,131.0,12.0
+2020-12-27,2020-12-28,2021-01-05,0.21333333333333335,,,0.21333333333333335,8.42,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.025336,8.0,1.0
+2021-01-24,2021-01-25,2021-03-08,0.10666666666666667,0.013333333333333334,,0.11053333333333333,10.23,Done,mixing,,,True,True,False,False,True,False,False,False,True,False,0.010805333333333333,42.0,1.0
+2021-02-10,2021-03-24,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,16.85,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.017936,271.0,42.0
+2021-02-10,2021-03-23,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,20.08,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.015050666666666665,272.0,41.0
+2021-02-10,2021-03-22,2021-12-20,0.29629599999999995,0.005928,,0.302224,17.29,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.01748,273.0,40.0
+2021-02-10,2021-03-21,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,16.54,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.018272,274.0,39.0
+2021-02-10,2021-03-20,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,14.97,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.02018933333333333,275.0,38.0
+2021-02-10,2021-03-20,2021-12-20,0.29629599999999995,0.005928,,0.302224,17.48,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.017290666666666666,275.0,38.0
+2021-02-10,2021-03-20,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,19.79,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.015272,275.0,38.0
+2021-02-10,2021-03-19,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,17.44,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.017328,276.0,37.0
+2021-02-13,2021-05-14,2021-08-29,0.24,0.08,,0.32,15.67,Done,full production,,,True,False,False,False,False,True,False,False,True,False,0.020421333333333333,107.0,90.0
+2021-02-25,2021-03-05,2021-04-19,0.18666666666666668,,0.05333333333333334,0.11860533333333333,9.65,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.012290666666666667,45.0,8.0
+2021-03-23,2021-03-24,2021-12-20,0.29629599999999995,0.005925333333333333,,0.3022213333333333,17.36,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.017408,271.0,1.0
+2021-06-15,2021-06-16,2021-06-24,0.12,,,0.12,8.94,Done,vocal production,,,True,False,False,True,False,False,False,False,True,False,0.013424,8.0,1.0
+2021-06-16,2021-06-19,2021-06-24,0.12,,,0.12,9.83,Done,vocal production,,,True,False,False,True,False,False,False,False,False,False,0.012208,5.0,3.0
+2021-06-16,2021-06-18,2021-06-24,0.12,,,0.12,8.91,Done,vocal production,,,True,False,False,True,False,False,False,False,False,False,0.013469333333333333,6.0,2.0
+2021-06-16,2021-06-17,2021-06-24,0.12,,,0.12,4.81,Done,vocal production,,,True,False,False,True,False,False,False,False,True,False,0.024949333333333334,7.0,1.0
+2021-07-13,2021-07-14,2021-07-28,0.12,,,0.12,9.04,Done,vocal production,,,True,False,False,False,False,False,False,False,True,False,0.013274666666666667,14.0,1.0
+2021-08-16,2021-08-28,2021-09-01,0.17333333333333334,,0.06666666666666667,0.092992,1.42,Done,vocal production,,,True,True,False,False,False,False,False,False,False,False,0.065488,4.0,12.0
+2021-08-26,2021-08-27,2021-08-29,0.18666666666666668,,,0.17193866666666666,6.9,Done,additional production,,,True,True,False,True,False,False,False,False,True,False,0.024917333333333333,2.0,1.0
+2021-09-06,2021-09-07,2022-08-24,0.37333333333333335,,,0.37333333333333335,30.69,Done,full production,,,True,False,False,False,False,False,False,False,True,False,0.012165333333333332,351.0,1.0
+2021-09-27,2022-01-11,2023-08-12,0.25333333333333335,,,0.23334666666666665,18.08,Done,full production,,,True,True,False,False,False,False,False,False,True,True,0.012906666666666667,578.0,106.0
+2021-10-20,2021-11-01,2021-11-02,0.15271466666666667,,,0.15271466666666667,2.53,Done,mixing,,,True,False,False,False,False,False,False,False,True,False,0.06036266666666667,1.0,12.0
+2021-11-24,2021-12-23,2022-01-09,0.4,0.09333333333333334,,0.45441066666666663,13.96,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.032552,17.0,29.0
+2021-11-29,2021-11-30,2021-12-07,0.03333333333333333,,,0.030704,0.5,Done,production tweak,,,True,True,False,False,False,False,False,False,True,False,0.061408,7.0,1.0
+2021-12-05,2021-12-06,2021-12-15,0.16559200000000002,,,0.16559200000000002,4.7,Done,additional production,,,True,False,False,False,True,False,False,False,True,False,0.035232,9.0,1.0
+2022-01-03,2022-01-18,2022-03-08,0.37333333333333335,,,0.37333333333333335,15.09,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.024741333333333334,49.0,15.0
+2022-02-08,2022-02-09,2022-05-17,0.4,,,0.4,34.56,Done,full production,,,True,False,False,False,False,True,False,False,True,True,0.011573333333333333,97.0,1.0
+2022-02-11,2022-02-15,2022-07-26,0.26666666666666666,,0.014890666666666668,0.251776,21.91,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.011490666666666668,161.0,4.0
+2022-03-16,2022-03-31,2022-11-10,0.29333333333333333,,0.023637333333333333,0.269696,22.28,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.012104,224.0,15.0
+2022-03-16,2022-03-30,2022-05-19,0.26666666666666666,,0.011968000000000001,0.2546986666666667,11.35,Done,full production,,,True,False,False,True,False,True,False,False,True,False,0.02244,50.0,14.0
+2022-04-01,2022-04-05,2022-11-16,0.26666666666666666,,0.014933333333333333,0.2517333333333333,20.37,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.012357333333333335,225.0,4.0
+2022-04-06,2022-04-13,2022-04-15,0.16,,0.007285333333333334,0.15271466666666667,2.98,Done,mixing,,,True,False,False,False,False,False,False,False,True,False,0.05124533333333333,2.0,7.0
+2022-06-22,2022-06-23,2022-07-29,0.5333333333333333,0.13333333333333333,,0.6140666666666666,24.42,Done,additional production,,,True,True,False,True,False,False,False,False,True,False,0.025146666666666664,36.0,1.0
+2022-07-06,2022-08-10,2022-11-16,0.26666666666666666,,0.0152,0.25146666666666667,9.84,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.025554666666666667,98.0,35.0
+2022-07-06,2022-07-07,2022-07-11,0.08,,,0.08,6.17,Done,pre production,,,True,False,False,True,False,False,False,False,False,False,0.012965333333333332,4.0,1.0
+2022-07-12,2022-09-26,2022-10-22,0.4,,,0.36844000000000005,5.21,Done,full production,,,True,True,False,True,False,False,False,False,True,False,0.07071733333333333,26.0,76.0
+2022-08-21,2022-08-30,2022-11-16,0.26666666666666666,,0.019466666666666667,0.2472,12.79,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.019328,78.0,9.0
+2022-09-20,2022-10-07,2023-01-17,0.26666666666666666,,0.020266666666666665,0.2464,13.27,Done,full production,,,True,False,False,True,False,False,False,False,True,False,0.018567999999999998,102.0,17.0
+2022-10-04,2022-10-05,2022-10-06,0.04,,,0.03684533333333333,0.6,Done,production tweak,,,True,True,False,False,False,False,False,False,True,False,0.061408,1.0,1.0
+2022-11-16,2022-11-20,2023-03-28,1.0,,,0.9011013333333333,32.52,Done,full production,,,True,True,False,False,False,True,False,False,True,True,0.027709333333333332,128.0,4.0
+2022-11-30,2022-12-05,2023-01-17,0.6933333333333334,,,0.6933333333333334,29.1,Done,full production,,,True,False,False,False,True,False,False,False,True,False,0.023826666666666666,43.0,5.0
+2022-12-06,2022-12-11,2023-02-28,0.7333333333333333,,,0.6608080000000001,25.7,Done,full production,0.03,,True,True,False,False,False,True,False,False,True,True,0.025712,79.0,5.0
+2023-02-07,2023-02-23,2023-03-31,0.32,,,0.32,11.23,Done,vocal production,0.0,,True,False,False,False,True,False,False,False,False,False,0.028496,36.0,16.0
+2023-02-25,2023-03-04,2023-04-02,0.5501333333333334,,,0.49572533333333335,16.54,Done,full production,0.5,0.5,True,True,False,False,False,True,False,False,True,True,0.029970666666666666,29.0,7.0
+2023-03-03,2023-03-06,2023-03-09,0.02,,,0.018021333333333334,0.23,Done,mastering,0.0,,True,True,False,False,False,False,False,False,True,False,0.07835466666666666,3.0,3.0
+2023-03-29,2023-04-11,2023-05-19,0.7333333333333333,,,0.6608080000000001,16.26,Done,full production,0.0,,True,True,False,False,False,False,False,False,True,False,0.04064,38.0,13.0
+2023-04-07,2023-04-08,2023-06-26,0.7333333333333333,,,0.7333333333333333,17.6,Done,full production,0.03,,True,False,False,False,False,True,False,False,True,True,0.041666666666666664,79.0,1.0
+2023-04-19,2023-04-20,2023-04-27,0.05333333333333334,,,0.05333333333333334,2.12,Done,vocal production,0.0,,True,False,False,True,False,False,False,False,False,False,0.025157333333333334,7.0,1.0
+2023-05-11,2023-05-22,2023-06-27,0.7333333333333333,,,0.6608080000000001,28.2,Done,full production,0.03,,True,True,False,False,False,False,False,False,True,True,0.023432,36.0,11.0
+2023-05-22,2023-05-23,2023-07-03,0.21333333333333335,,,0.21333333333333335,7.18,Done,vocal production,0.0,,True,False,False,True,False,False,False,False,False,False,0.029712,41.0,1.0
+,2023-02-17,2023-06-02,,,,,18.2,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,105.0,
+,2023-02-16,2023-03-08,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,20.0,
+,2023-02-15,2023-03-08,,,,,13.69,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,21.0,
+,2022-10-14,2022-10-25,,,,,21.11,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,11.0,
+,2022-10-13,2022-10-13,,,,,20.67,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,0.0,
+,2022-10-12,2022-10-25,,,,,16.59,Done,full production,,,True,False,True,True,False,True,True,True,True,True,,13.0,
+,2022-01-06,2022-03-14,,,,,0.0,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,67.0,
+,2021-10-22,2021-11-03,,,,,14.86,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,12.0,
+,2021-10-21,2021-11-01,,,,,19.94,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,11.0,
+,2021-10-20,2021-11-02,,,,,22.25,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,13.0,
+,2020-11-01,2020-11-07,,,,,19.25,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,6.0,
+,2020-09-03,2020-09-09,,,,,22.88,Done,full production,,,True,False,True,True,False,True,True,True,True,True,,6.0,
+,2020-09-02,2020-09-09,,,,,25.48,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,7.0,
+,2020-09-01,2020-09-09,,,,,19.53,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,8.0,
+,2020-02-24,2020-04-21,,,,,8.07,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,57.0,
+,2020-02-19,2020-08-29,,,,,18.08,Done,songwriting,,,True,False,True,True,False,True,False,False,False,True,,192.0,
+,2020-02-04,2020-05-13,,,,,29.35,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,99.0,
+,,2018-09-09,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2018-08-08,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2018-10-24,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-10-02,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2018-10-23,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2015-03-27,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2015-03-27,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-10-02,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-10-02,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-08-22,,,,,6.18,Done,songwriting,,,True,False,True,True,False,True,False,False,False,True,,,
+,,2019-11-13,,,,,,Done,additional production,,,False,False,False,True,False,False,False,False,True,False,,,
+,,2022-09-09,,,,,5.45,Done,songwriting,,,True,False,True,False,False,False,False,False,False,True,,,
+,,2018-05-15,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-02-14,,,,,0.0,Done,full production,,,True,False,True,True,False,True,False,False,False,True,,,
+,,2018-06-22,,,,,,Done,full production,,,False,True,False,True,False,True,False,False,True,True,,,
+,,2018-01-03,,,,,,Done,full production,,,False,True,False,True,False,True,True,False,True,True,,,
+,,2017-07-07,,,,,,Done,full production,,,False,True,False,True,False,True,False,False,True,True,,,
+,,2021-01-20,,,,,,Done,additional production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-03-28,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-01-17,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2018-10-17,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2017-08-02,,,,,,Done,full production,,,False,True,False,False,False,False,False,False,True,False,,,
+,,2017-08-02,,,,,,Done,full production,,,False,True,False,False,False,False,False,False,True,False,,,
+,,2017-07-26,,,,,,Done,full production,,,False,True,False,True,False,True,False,False,True,False,,,
+,,2018-11-24,,,,,,Done,full production,,,False,True,True,False,False,True,False,False,True,True,,,
+,,2021-06-21,,,,,,Done,full production,,,False,False,True,True,False,False,False,False,False,True,,,
+,,2022-01-06,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-07-21,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-02-04,,,,,,Done,full production,,,False,False,True,True,False,False,False,False,False,True,,,
+,,2021-03-17,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-04-14,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-08-16,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-04-06,,,,,,Done,full production,,,False,False,True,True,False,False,False,False,False,True,,,
+,,2021-08-27,,,,,,Done,full production,,,False,False,True,True,False,False,False,False,False,True,,,
+,,2021-02-26,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-04-01,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2020-02-19,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-04-21,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-05-14,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-01-06,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-09-10,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-09-10,,,,,,Done,full production,,,False,False,True,True,False,True,True,True,True,True,,,
+,,2021-10-01,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2021-08-27,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2017-08-07,,,,,,Done,full production,,,False,True,False,False,True,True,False,False,True,False,,,
+,,2018-06-06,,,,,,Done,songwriting,,,False,False,True,True,False,False,False,False,False,True,,,
+,,2018-06-08,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2019-05-11,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2016-09-12,,,,,,Done,full production,,,False,True,True,False,False,False,False,False,True,False,,,
+,,2018-09-18,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2017-11-14,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2014-12-31,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2020-03-21,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2013-01-01,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-10-07,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2016-03-19,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2019-10-01,,,,,,Done,full production,,,False,False,True,True,False,False,False,False,False,True,,,
+,,2015-10-28,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2016-03-08,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2022-09-21,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2016-01-22,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2016-11-05,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2015-11-05,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2016-09-30,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,
+,,2022-05-23,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-02-14,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-08-08,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-08-05,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-11-17,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-06-16,,,,,,Done,full production,,,False,False,True,True,False,True,True,True,True,True,,,
+,,2021-05-12,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-06-01,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-06-11,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-02-14,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-07-29,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-10-12,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-06-03,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-07-08,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-03-17,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-06-03,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-10-28,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-11-18,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-08-13,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-02-01,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-02-18,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-06-10,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2021-04-08,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-06-10,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-05-25,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2022-05-27,,,,,,Done,full production,,,False,False,True,True,False,True,True,False,True,True,,,
+,,2020-09-25,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2018-09-19,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2021-02-24,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2019-10-14,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2018-04-10,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2020-02-21,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+,,2018-10-18,,,,,,Done,songwriting,,,False,False,True,True,False,True,False,False,False,True,,,
+2018-10-14,2018-10-15,,0.22666666666666666,,,,,Paused,track production,,,False,True,False,False,False,False,False,False,False,False,,,1.0
+2020-01-16,2020-02-12,,0.32,,,0.29475199999999996,11.51,Paused,full production,,,True,True,False,False,False,False,False,False,False,False,0.025608,,27.0
+2020-04-17,2020-07-14,,0.3466666666666667,,0.08,0.23931466666666665,16.8,Paused,full production,,,True,True,False,False,False,False,False,False,False,False,0.014245333333333334,,88.0
+2020-05-02,2020-05-18,,0.22666666666666666,,,0.20878400000000003,3.17,Paused,track production,,,True,True,False,False,False,False,False,False,False,False,0.06586133333333333,,16.0
+2020-05-06,2020-06-09,,0.22666666666666666,,,0.20878400000000003,5.41,Paused,track production,,,True,True,False,False,False,False,False,False,False,False,0.038592,,34.0
+2020-05-21,,,0.22666666666666666,,,0.20878400000000003,0.0,Paused,track production,,,True,True,False,False,False,False,False,False,False,False,,,
+2020-05-27,2020-06-07,,0.05333333333333334,,,0.04912533333333333,1.1,Paused,mastering,,,True,True,False,False,False,False,False,False,False,False,0.044658666666666666,,11.0
+2020-10-04,2021-09-25,,0.17333333333333334,,,0.15965866666666667,3.51,Paused,full production,,,True,True,False,False,False,False,False,False,False,False,0.045488,,356.0
+2022-03-01,,,0.3466666666666667,,,,,Paused,full production,,,False,False,False,True,False,True,False,False,False,False,,,
+,2023-05-08,,,,,,2.65,Paused,songwriting,,,True,False,True,True,False,True,False,False,False,True,,,
+,2023-04-21,,,,,,1.78,Paused,songwriting,,,True,False,True,True,False,True,False,False,False,True,,,
+,2023-04-11,,,,,,3.26,Paused,songwriting,,,True,False,True,True,False,True,False,False,False,True,,,
+,2022-09-28,,,,,,0.0,Paused,full production,,,True,False,True,True,False,True,False,False,False,True,,,
+,2020-05-08,,,,,,0.0,Paused,full production,,,True,False,True,True,False,True,False,False,False,True,,,
+,2020-03-11,,,,,,2.35,Paused,songwriting,,,True,False,True,True,False,True,False,False,False,True,,,
