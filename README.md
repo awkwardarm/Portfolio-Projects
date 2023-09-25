@@ -17,6 +17,8 @@ After starting the process of time tracking productivity I soon realized I could
 - How long is a typical timed work session?
 - Are certain days of the weeks more productive?
   - Are there certain activities that occur on certain days?
+  - Are there certain times of the day I'm more productive?
+  - What time do I start on the most productive days?
 - How does total productivity change by month?
 - How has my discipline changed over time?
 - How many hours have I spent in total on different activities?
@@ -24,10 +26,13 @@ After starting the process of time tracking productivity I soon realized I could
 - On a day with many productive hours, how likely is the next day to be at least x hours less?
 
 
-## Notes On Privacy
+# Notes On Privacy
 The .csv files for *project_hours* and *time_tracking* have been pre-processed for privacy:  
 -Client and project names have been removed.  
 -All financial data is MinMax scaled across all columns with values ranging from from 0 to 1. All relative values of all financial data has been maintained. 
+
+# Project Status
+In Progress
 
 # Column Descriptions
 
