@@ -9,15 +9,17 @@ fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_
 2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,3.36,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.10317333333333333,,387.0
 2022-10-27,2022-11-07,,0.4666666666666667,,,0.4205146666666667,17.82,Active,additional production,,,True,True,False,False,False,False,False,False,True,False,0.02359733333333333,,11.0
 2023-03-13,2023-03-14,,0.08,,,0.08,6.78,Active,additional production,,,True,False,False,True,False,False,False,False,True,False,0.0118,,1.0
-2023-05-05,2023-05-07,,0.7333333333333333,,,0.7333333333333333,11.99,Active,full production,,,True,False,False,False,False,True,False,False,True,True,0.06116266666666667,,2.0
-2023-06-25,2023-06-27,,0.5333333333333333,,,0.5333333333333333,29.22,Active,full production,0.5,0.25,True,False,False,True,False,True,False,False,True,True,0.018253333333333333,,2.0
+2023-05-05,2023-05-07,,0.7333333333333333,,,0.7333333333333333,18.31,Active,full production,,,True,False,False,False,False,True,False,False,True,True,0.040050666666666665,,2.0
 2023-06-30,2023-07-11,,0.7333333333333333,,,0.7333333333333333,15.28,Active,full production,,,True,False,False,False,False,False,False,False,True,True,0.047992,,11.0
 2023-07-16,,,0.7333333333333333,,,0.6608080000000001,0.0,Active,full production,,,True,True,False,False,False,False,False,False,True,False,,,
-2023-07-17,2023-07-18,,0.5333333333333333,,,0.5333333333333333,20.17,Active,full production,0.5,0.5,True,False,False,False,True,True,False,False,True,True,0.026442666666666666,,1.0
-2023-08-10,2023-09-04,,0.5357333333333333,,,0.4827493333333333,4.93,Active,track production,,,True,True,False,False,False,False,False,False,True,True,0.09792,,25.0
-2023-08-14,,,0.4,,,0.36044000000000004,0.0,Active,track production,,,True,True,False,False,False,False,False,False,True,False,,,
-2023-08-26,2023-09-12,,0.5333333333333333,,,0.48058666666666666,5.02,Active,additional production,,,True,True,False,False,False,False,False,False,True,False,0.09573333333333334,,17.0
+2023-07-17,2023-07-18,,0.5333333333333333,,,0.5333333333333333,28.48,Active,full production,0.5,0.5,True,False,False,False,True,True,False,False,True,True,0.018725333333333333,,1.0
+2023-08-10,2023-09-04,,0.5357333333333333,,,0.4827493333333333,11.2,Active,track production,,,True,True,False,False,False,False,False,False,True,True,0.04310133333333333,,25.0
+2023-08-14,,,0.4,,,0.36044000000000004,3.46,Active,track production,,,True,True,False,False,False,False,False,False,True,False,0.10417333333333333,,
 ,2022-11-02,,,,,,5.67,Active,full production,,,True,False,True,True,False,True,False,False,False,True,,,
+2023-09-20,,,0.13333333333333333,,,0.13333333333333333,2.08,Active,additional production,,,True,False,False,True,True,True,True,False,True,True,0.06410133333333333,,
+,,,,,,,,Active,,,,,,,,,,,,,True,,,
+2023-08-26,2023-09-12,2023-10-10,0.5333333333333333,,,0.48058666666666666,16.71,Done,additional production,,,True,True,False,False,False,False,False,False,True,False,0.028759999999999997,28.0,17.0
+2023-06-25,2023-06-27,2023-09-21,0.5333333333333333,,,0.5333333333333333,29.22,Done,full production,0.5,0.25,True,False,False,True,False,True,False,False,True,True,0.018253333333333333,86.0,2.0
 2019-09-03,2020-10-30,2021-02-16,0.4666666666666667,,0.007039999999999999,0.45962666666666663,24.38,Done,full production,,,True,False,False,False,False,True,False,False,True,True,0.018853333333333333,109.0,423.0
 2019-10-10,2020-02-13,2020-04-09,0.24,,,0.221064,12.92,Done,track production,,,True,True,False,False,False,False,False,False,True,False,0.017109333333333334,56.0,126.0
 2019-12-09,2020-02-03,2020-04-06,0.22666666666666666,,,0.20878400000000003,23.36,Done,full production,,,True,True,False,False,False,False,False,False,True,False,0.008938666666666668,63.0,56.0
@@ -96,7 +98,7 @@ fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_
 2022-11-16,2022-11-20,2023-03-28,1.0,,,0.9011013333333333,32.52,Done,full production,,,True,True,False,False,False,True,False,False,True,True,0.027709333333333332,128.0,4.0
 2022-11-30,2022-12-05,2023-01-17,0.6933333333333334,,,0.6933333333333334,29.1,Done,full production,,,True,False,False,False,True,False,False,False,True,False,0.023826666666666666,43.0,5.0
 2022-12-06,2022-12-11,2023-02-28,0.7333333333333333,,,0.6608080000000001,25.7,Done,full production,0.03,,True,True,False,False,False,True,False,False,True,True,0.025712,79.0,5.0
-2023-02-07,2023-02-23,2023-03-31,0.32,,,0.32,11.23,Done,vocal production,0.0,,True,False,False,False,True,False,False,False,False,False,0.028496,36.0,16.0
+2023-02-07,2023-02-23,2023-03-31,0.32,,,0.32,14.7,Done,vocal production,0.0,,True,False,False,False,True,False,False,False,False,False,0.021768,36.0,16.0
 2023-02-25,2023-03-04,2023-04-02,0.5501333333333334,,,0.49572533333333335,16.54,Done,full production,0.5,0.5,True,True,False,False,False,True,False,False,True,True,0.029970666666666666,29.0,7.0
 2023-03-03,2023-03-06,2023-03-09,0.02,,,0.018021333333333334,0.23,Done,mastering,0.0,,True,True,False,False,False,False,False,False,True,False,0.07835466666666666,3.0,3.0
 2023-03-29,2023-04-11,2023-05-19,0.7333333333333333,,,0.6608080000000001,16.26,Done,full production,0.0,,True,True,False,False,False,False,False,False,True,False,0.04064,38.0,13.0
