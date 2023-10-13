@@ -5,6 +5,7 @@ As an ambitious freelance music producer, songwriter, and audio engineer navigat
 
 The idea is simple, I have near complete autonomy over my time in music production and it would be easily squandered. The goal is to achieve a balance of meaningful and sustainable daily productivity that forwards the path to business success while avoiding burnout. It's important to note that tracking productivity is different than tracking "working hours." It's easy to spend many hours in the office, and especially the recording studio, accomplishing very little. The only hours tracked in my system are those of meaningful productivity and not hours simply being in the office/studio. I work on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with countdown timers set to 30 minute blocks with a daily goal of 4.5 hours of creative and 1.5 hours of non-creative productivity.
 
+
  
 # Data Collection
 
