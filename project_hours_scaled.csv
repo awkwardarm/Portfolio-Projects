@@ -9,7 +9,7 @@ fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_
 2022-03-01,2023-03-23,,0.3466666666666667,,,0.3466666666666667,3.36,Active,full production,,,True,False,False,True,False,True,False,False,True,False,0.10317333333333333,,387.0
 2022-10-27,2022-11-07,,0.4666666666666667,,,0.4205146666666667,17.82,Active,additional production,,,True,True,False,False,False,False,False,False,True,False,0.02359733333333333,,11.0
 2023-03-13,2023-03-14,,0.08,,,0.08,6.78,Active,additional production,,,True,False,False,True,False,False,False,False,True,False,0.0118,,1.0
-2023-05-05,2023-05-07,,0.7333333333333333,,,0.7333333333333333,18.31,Active,full production,,,True,False,False,False,False,True,False,False,True,True,0.040050666666666665,,2.0
+2023-05-05,2023-05-07,,0.7333333333333333,,,0.7333333333333333,17.71,Active,full production,,,True,False,False,False,False,True,False,False,True,True,0.041408,,2.0
 2023-06-30,2023-07-11,,0.7333333333333333,,,0.7333333333333333,15.28,Active,full production,,,True,False,False,False,False,False,False,False,True,True,0.047992,,11.0
 2023-07-16,,,0.7333333333333333,,,0.6608080000000001,0.0,Active,full production,,,True,True,False,False,False,False,False,False,True,False,,,
 2023-07-17,2023-07-18,,0.5333333333333333,,,0.5333333333333333,28.48,Active,full production,0.5,0.5,True,False,False,False,True,True,False,False,True,True,0.018725333333333333,,1.0
