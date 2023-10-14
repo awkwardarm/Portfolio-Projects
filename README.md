@@ -1,12 +1,8 @@
-
 # The Story
-
 As an ambitious freelance music producer, songwriter, and audio engineer navigating the complex and often dangerous wilderness of the music industry, I found myself on untrodden paths, reaching into the unknown, and in desperate need of structure. The journey to monetizing creativity through musical expression is arduous, requiring multi-decade stamina to hone your craft. Eating an elephant the size of Jupiter must be broken down into manageable bites. A system of discipline is my gateway to freedom, the beacon in the dark fog that enables me to keep pushing forward, especially on the days were motivation waned thin. And so began my journey into time tracking my productivity in late 2016.  
 
 The idea is simple, I have near complete autonomy over my time in music production and it would be easily squandered. The goal is to achieve a balance of meaningful and sustainable daily productivity that forwards the path to business success while avoiding burnout. It's important to note that tracking productivity is different than tracking "working hours." It's easy to spend many hours in the office, and especially the recording studio, accomplishing very little. The only hours tracked in my system are those of meaningful productivity and not hours simply being in the office/studio. I work on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with countdown timers set to 30 minute blocks with a daily goal of 4.5 hours of creative and 1.5 hours of non-creative productivity.
 
-
- 
 # Data Collection
 
 The data are collected utilizing triggers from IFTTT.com that log clock-in/out stamps with metadata to Google Sheets. I use iOS Shortcuts to easily trigger 
@@ -26,7 +22,6 @@ After starting the process of time tracking productivity I soon realized I could
 - Do I achieve more productive hours in a day with many or few starts/stops?
 - On a day with many productive hours, how likely is the next day to be at least x hours less?
 
-
 # Notes On Privacy
 The .csv files for *project_hours* and *time_tracking* have been pre-processed for privacy:  
 -Client and project names have been removed.  
@@ -36,7 +31,6 @@ The .csv files for *project_hours* and *time_tracking* have been pre-processed f
 In Progress
 
 # Column Descriptions
-
 **project_hours.csv**:  
 
 `artist`: *column dropped for privacy*  
