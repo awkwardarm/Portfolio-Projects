@@ -1,4 +1,4 @@
-fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_after_fees,total_hours,status,project_type,master_ownership,song_ownership,time_tracked,soundbetter,spec_project,experienced_client,difficult_client,backend_belief,backend_money_made,sync_license,fully_produced,songwriter,disco.ac,project_hourly,days_to_finish,days_to_start,client_id,song_id
+fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_after_fees,total_hours,status,project_type,master_ownership,song_ownership,time_tracked,soundbetter,spec_project,experienced_client,difficult_client,backend_belief,backend_money_made,sync_license,fully_produced,songwriter,disco.ac,project_hourly,days_to_finish,days_to_start,client_id,project_id
 ,2020-09-02,2020-09-09,,,,,25.48,Done,full production,,,True,False,True,True,False,True,False,False,True,True,,,7.0,,1,139
 ,,2018-08-08,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,False,True,,,,,2,144
 ,,2018-10-24,,,,,,Done,full production,,,False,False,True,True,False,True,False,False,True,True,,,,,2,145
