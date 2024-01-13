@@ -40,8 +40,8 @@ fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_
 2023-02-25,2023-03-04,2023-04-02,0.5501333333333334,,,0.49572533333333335,16.54,Done,full production,0.5,0.5,True,True,False,False,False,True,False,False,True,True,,0.029970666666666666,29.0,7.0,16,121
 2023-07-17,2023-07-18,,0.5333333333333333,,,0.5333333333333333,28.48,Paused,full production,0.5,0.5,True,False,False,False,True,True,False,False,False,True,,0.018725333333333333,,1.0,16,122
 2023-04-07,2023-04-08,2023-06-26,0.7333333333333333,,,0.7333333333333333,17.6,Done,full production,0.03,,True,False,False,False,False,True,False,False,True,True,True,0.041666666666666664,79.0,1.0,17,51
-2023-11-03,,,0.7333333333333333,,,0.7333333333333333,1.67,Active,full production,0.03,,True,False,False,False,False,True,False,False,,True,,0.43912266666666666,,,17,48
-2023-05-05,2023-05-07,2023-10-28,0.7333333333333333,,,0.7333333333333333,24.66,Done,full production,,,True,False,False,False,False,True,False,False,True,True,True,0.029738666666666667,174.0,2.0,17,49
+2023-11-03,,,0.7333333333333333,,,0.7333333333333333,8.1,Active,full production,0.03,,True,False,False,False,False,True,False,False,,True,,0.09053599999999999,,,17,48
+2023-05-05,2023-05-07,2023-10-28,0.7333333333333333,,,0.7333333333333333,27.53,Done,full production,,,True,False,False,False,False,True,False,False,True,True,True,0.026637333333333332,174.0,2.0,17,49
 2022-12-06,2022-12-11,2023-02-28,0.7333333333333333,,,0.6608080000000001,25.7,Done,full production,0.03,,True,True,False,False,False,True,False,False,True,True,True,0.025712,79.0,5.0,17,50
 2020-02-13,2020-02-14,2020-05-07,0.25333333333333335,,,0.23334666666666665,12.21,Done,track production,,,True,True,False,False,False,False,False,False,True,False,,0.019112,83.0,1.0,18,65
 2019-09-03,2020-10-30,2021-02-16,0.4666666666666667,,0.007039999999999999,0.45962666666666663,24.38,Done,full production,,,True,False,False,False,False,True,False,False,True,True,,0.018853333333333333,109.0,423.0,19,62
@@ -100,7 +100,7 @@ fund_date,start_date,finish_date,price,total_additional_payments,expenses,total_
 2020-05-21,,,0.22666666666666666,,,0.20878400000000003,0.0,Paused,track production,,,True,True,False,False,False,False,False,False,False,False,,,,,51,233
 ,,2017-08-02,,,,,,Done,full production,,,False,True,False,False,False,False,False,False,True,False,,,,,52,163
 2022-07-12,2022-09-26,2022-10-22,0.4,,,0.36844000000000005,5.21,Done,full production,,,True,True,False,True,False,False,False,False,True,False,,0.07071733333333333,26.0,76.0,53,34
-2023-08-14,,,0.4,,,0.36044000000000004,6.85,Active,track production,,,True,True,False,False,False,False,False,False,,False,,0.05261866666666667,,,53,33
+2023-08-14,,,0.4,,,0.36044000000000004,10.32,Active,track production,,,True,True,False,False,False,False,False,False,,False,,0.034925333333333336,,,53,33
 2018-10-14,2018-10-15,,0.22666666666666666,,,,,Paused,track production,,,False,True,False,False,False,False,False,False,False,False,,,,1.0,54,165
 ,,2017-08-02,,,,,,Done,full production,,,False,True,False,False,False,False,False,False,True,False,,,,,54,164
 ,,2017-07-26,,,,,,Done,full production,,,False,True,False,True,False,True,False,False,True,False,,,,,55,166
