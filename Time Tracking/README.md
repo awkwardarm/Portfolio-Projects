@@ -28,9 +28,6 @@ The .csv files for *project_hours* and *time_tracking* have been pre-processed f
 -Client and project names have been removed.  
 -All financial data is MinMax scaled across all columns with values ranging from from 0 to 1. All relative values of all financial data has been maintained. 
 
-# Project Status
-In Progress
-
 # Column Descriptions
 **project_hours.csv**:  
 
