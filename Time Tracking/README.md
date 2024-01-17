@@ -3,7 +3,7 @@ As an ambitious freelance music producer, songwriter, and audio engineer navigat
 
 The idea is simple, I have near complete autonomy over my time in music production and I want to optimize my time spent. The goal is to achieve a balance of meaningful and sustainable daily productivity that forwards the path to business success while avoiding burnout. It's important to note that tracking productivity is different than tracking "working hours." It's easy to spend many hours in the office, and especially the recording studio, accomplishing very little. The only hours tracked in my system are those of meaningful productivity that advance projects to completion. I work on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with countdown timers set to 30 minute blocks with a daily goal of 4.5 hours of creative and 1.5 hours of non-creative productivity.
 
-# [Tableau Dashboard](https://public.tableau.com/app/profile/matthew.tryba/viz/PortfolioProject-TimeTrackingAnalysis/Dashboard1)
+# [Tableau Dashboard](https://public.tableau.com/app/profile/matthew.tryba/viz/PortfolioProject-TimeTrackingAnalysis/Dashboard1) (Click for Executive Summary )
 
 
 # Data Collection
@@ -22,6 +22,13 @@ The data are collected utilizing triggers from IFTTT.com that log clock-in/out s
 - How many hours have I spent in total on different activities?
 - Do I achieve more productive hours in a day with many or few starts/stops?
 - On a day with many productive hours, how likely is the next day to be at least x hours less?
+
+# How The Data Has Matured
+## Lessons
+
+I've learned that dashboards can be both a tool self harming weapon. At one point I had a "Mega Dashboard of Infinite Understanding of the Entire Business" pinned as the first tab in my web browser. Every day I would see the global view of my business with the theory that being constantly informed was the way to ultimate domineering business success. Over time I realized that I needed to focus on less and less, eventually honing in only on today. My latest daily dashboard below contains only a dial of my energy level and a simple query to sum total hours by activity. 
+
+![](Visualizations/daily_dashboard.png)
 
 # Notes On Privacy
 The .csv files for *project_hours* and *time_tracking* have been pre-processed for privacy:  
@@ -72,8 +79,3 @@ The .csv files for *project_hours* and *time_tracking* have been pre-processed f
 `week`: week number in year  
 `client`: *column dropped for privacy*  
 `project`: *column dropped for privacy*  
-
-# How The Data Has Matured
-## Lessons
-
-I've learned that dashboards can be both a tool and a crippling device. At one point I had a "Mega Dashboard of Infinite Understanding of the Entire Business" pinned as the first tab in my web browser. Every day I would see the global view of my business with the theory that being constantly informed was the way to ultimate domineering business success. Over time I realized that I needed to focus on less and only on today. My latest daily dashboard below ![image](Visualizations/)
