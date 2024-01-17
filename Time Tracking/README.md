@@ -1,13 +1,14 @@
 # The Story
-As an ambitious freelance music producer, songwriter, and audio engineer navigating the complex and often dangerous wilderness of the music industry, I found myself on untrodden paths, reaching into the unknown, and in desperate need of structure. The journey to monetizing creativity through musical expression is arduous, requiring multi-decade stamina to hone your craft. Eating an elephant the size of Jupiter must be broken down into manageable bites. A system of discipline is my gateway to freedom, the beacon in the dark fog that enables me to keep pushing forward, especially on the days were motivation waned thin. And so began my journey into time tracking my productivity in late 2016.  
+As an ambitious freelance music producer, songwriter, and audio engineer navigating the complex wilderness of the music industry I found myself on untrodden paths, reaching into the unknown, and in desperate need of structure. The journey to monetizing music requires multi-decade stamina to hone your craft. A system of discipline is my gateway to freedom, especially on days were motivation waned thin. And so began my journey into time tracking my productivity in late 2016.  
 
-The idea is simple, I have near complete autonomy over my time in music production and it would be easily squandered. The goal is to achieve a balance of meaningful and sustainable daily productivity that forwards the path to business success while avoiding burnout. It's important to note that tracking productivity is different than tracking "working hours." It's easy to spend many hours in the office, and especially the recording studio, accomplishing very little. The only hours tracked in my system are those of meaningful productivity and not hours simply being in the office/studio. I work on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with countdown timers set to 30 minute blocks with a daily goal of 4.5 hours of creative and 1.5 hours of non-creative productivity.
+The idea is simple, I have near complete autonomy over my time in music production and I want to optimize my time spent. The goal is to achieve a balance of meaningful and sustainable daily productivity that forwards the path to business success while avoiding burnout. It's important to note that tracking productivity is different than tracking "working hours." It's easy to spend many hours in the office, and especially the recording studio, accomplishing very little. The only hours tracked in my system are those of meaningful productivity that advance projects to completion. I work on the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with countdown timers set to 30 minute blocks with a daily goal of 4.5 hours of creative and 1.5 hours of non-creative productivity.
+
+# [Tableau Dashboard](https://public.tableau.com/app/profile/matthew.tryba/viz/PortfolioProject-TimeTrackingAnalysis/Dashboard1)
+
 
 # Data Collection
 
-The data are collected utilizing triggers from IFTTT.com that log clock-in/out stamps with metadata to Google Sheets. I use iOS Shortcuts to easily trigger 
-
-After starting the process of time tracking productivity I soon realized I could input the client and project name to my data to gain insights on each project total hours as well as insights on clients and revenue. 
+The data are collected utilizing triggers from IFTTT.com that log clock-in/out stamps with metadata to Google Sheets. 
 
 # Project Goals
 ## Questions on Productivity
@@ -78,4 +79,4 @@ In Progress
 # How The Data Has Matured
 ## Lessons
 
-I've learned that dashboards can be both a tool and a crippling device. At one point I had a "Mega Dashboard of Infinite Understanding of the Entire Business" pinned as the first tab in my web browser. Every day I would see the global view of my business with the theory that being constantly informed was the way to ultimate enlightenment and domineering business success. 
+I've learned that dashboards can be both a tool and a crippling device. At one point I had a "Mega Dashboard of Infinite Understanding of the Entire Business" pinned as the first tab in my web browser. Every day I would see the global view of my business with the theory that being constantly informed was the way to ultimate domineering business success. Over time I realized that I needed to focus on less and only on today. My latest daily dashboard below ![image](Visualizations/)
