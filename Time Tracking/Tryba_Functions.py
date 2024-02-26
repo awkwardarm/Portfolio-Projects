@@ -3,7 +3,6 @@ import os
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import pearsonr
-import pandasql as psql
 
 def scatter_with_subplots(dataframe, x_values, y_values, categories, sns_palette, figsize_x, figsize_y, title):
     # Function that creates scatterplots with auto-arranged layout    
