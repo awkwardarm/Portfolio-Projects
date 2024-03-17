@@ -1,0 +1,1 @@
+More playing, less admin! This python script creates pickleball reservations for private courts and open play. Input is one command line argument of either 'Open Play' or 'Private Court' to determine the type of reservation. 
