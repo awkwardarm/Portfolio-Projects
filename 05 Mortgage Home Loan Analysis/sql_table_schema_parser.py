@@ -34,7 +34,6 @@ class SQLTableSchemaParser:
         match = re.search(pattern, self.sql_command)
         end_match = re.search(end_pattern, self.sql_command)
 
-        #print(end_match.start())
         if match:
             return self.sql_command[:match.start()] + self.sql_command[match.end():end_match.start()]
         else:
