@@ -9,13 +9,7 @@ from sql_table_schema_parser import SQLTableSchemaParser
 
 def main():
     #process_files(folder_path, table_name, date_columns=date_col_indices)
-    df_dates = preprocess_dates(df=df, date_columns=date_col_indices)
-
-
-"""
-Working on pre-processing dates. It seems that either my columns are out of order or the data in the columns labeled "DATE" in the glossary is incorrect.
-"""
-
+    pass
 
 def insert_data(df, conn, table_name):
     """
@@ -44,6 +38,7 @@ def process_files(folder_path, table_name, date_columns):
                 file_path = os.path.join(folder_path, file_name)
                 df = pd.read_csv(file_path, header=None, delimiter='|')
                 preprocess_dates(df, date_columns=date_columns)
+                preprocess_booleans(df, bool_columns=bool_col_indices)
                 insert_data(df, conn, table_name)
 
 
@@ -67,7 +62,8 @@ def preprocess_dates(df, date_columns):
             df.iloc[:, col] = df.iloc[:, col].apply(lambda x: x.zfill(6) if not pd.isna(x) and len(x) < 6 else x)
 
             # Parse the date using datetime.strptime and then format it into YYYY-MM-DD, skipping NaN values
-            df.iloc[:, col] = df.iloc[:, col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d') if not pd.isna(x) else x)
+            #df.iloc[:, col] = df.iloc[:, col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d') if not pd.isna(x) else x)
+            df.iloc[:, col] = pd.to_datetime(df.iloc[:, col], format='%m%Y', errors='coerce').dt.strftime('%Y-%m-%d')
 
         except ValueError:
             error_col_indices.append(col)
@@ -75,6 +71,27 @@ def preprocess_dates(df, date_columns):
     #print(f'Errors on columns  {error_col_indices}')
     
     return df
+
+
+def preprocess_booleans(df, bool_columns):
+    """
+    Converts columns with "Y" and "N" values to boolean. All other values are set to NULL.
+    :param df: DataFrame with data.
+    :param bool_columns: List of columns indices to be converted.
+    """
+    for col in bool_columns:
+        df.iloc[:,col] = df.iloc[:,col].apply(convert_to_bool)
+
+    return df
+
+
+def convert_to_bool(x):
+    if x == 'N' or x == 'n':
+        return True
+    elif x == "Y" or x == 'y':
+        return False
+    else:
+        return None    
 
 
 '''INPUTS'''
@@ -97,6 +114,9 @@ sql_parser = SQLTableSchemaParser(sql_command=create_table)
 
 # Get schema and date columns
 date_col_indices = sql_parser.get_date_col_indices()
+
+# Indices of columns to be converted to bool
+bool_col_indices = sql_parser.get_bool_col_indices()
 
 # Replace '/path/to/your/csv/folder' with the actual folder path
 folder_path = "Y:\FannieMaeMortgageData\TestCsv"
