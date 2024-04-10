@@ -17,6 +17,18 @@ class SQLTableSchemaParser:
             schema_dict[key] = value
         return schema_dict
 
+    def get_schema_list(self):
+        columns = []
+        datatypes = []
+        schema_string = self.remove_create_table_from_string()
+        string_list = schema_string.split(sep=', ')
+        for item in string_list:
+            column, datatype = item.split(sep=' ')
+            columns.append(column)
+            datatypes.append(datatype)
+        schema_list = list(zip(columns, datatypes))
+        return schema_list
+
 
     def get_date_col_indices(self):
         date_col_indices = []
@@ -42,6 +54,7 @@ class SQLTableSchemaParser:
 
 if __name__ == "__main__":
     parser = SQLTableSchemaParser(create_table)
+    parser.get_schema_list()
 
 
 
