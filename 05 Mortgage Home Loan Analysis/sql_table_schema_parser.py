@@ -5,6 +5,7 @@ class SQLTableSchemaParser:
     def __init__(self, sql_command):
         self.sql_command = sql_command
         self.schema_dict = self.get_schema_dict()
+        self.schema_list = self.get_schema_list()
         self.date_col_indices = self.get_date_col_indices()
 
 
@@ -32,10 +33,10 @@ class SQLTableSchemaParser:
 
     def get_date_col_indices(self):
         date_col_indices = []
-        i = -1
-        for key, value in self.schema_dict.items():
-            i += 1
-            if value == 'DATE':
+        schema_list = self.schema_list   
+
+        for i, _ in enumerate(schema_list):
+            if schema_list[i][1] == 'DATE':
                 date_col_indices.append(i)
         return date_col_indices
 
@@ -55,6 +56,7 @@ class SQLTableSchemaParser:
 if __name__ == "__main__":
     parser = SQLTableSchemaParser(create_table)
     parser.get_schema_list()
+    # print(parser.get_date_col_indices())
 
 
 

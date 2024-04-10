@@ -8,9 +8,8 @@ from sql_table_schema_parser import SQLTableSchemaParser
 
 
 def main():
-    #process_files(folder_path, table_name)
+    #process_files(folder_path, table_name, date_columns=date_col_indices)
     df_dates = preprocess_dates(df=df, date_columns=date_col_indices)
-    print(df_dates.dtypes)
 
 
 """
@@ -35,7 +34,7 @@ def insert_data(df, conn, table_name):
         cursor.close()
 
 
-def process_files(folder_path, table_name):
+def process_files(folder_path, table_name, date_columns):
     """
     Process each .csv file in the specified folder.
     """
@@ -50,24 +49,30 @@ def process_files(folder_path, table_name):
 
 def preprocess_dates(df, date_columns):
     """
-    Converts date columns from MMYYYY to YYYY-MM-DD format.
+    Converts date columns from MMYYYY to YYYY-MM-DD format, safely handling NaN values.
     :param df: DataFrame with data.
     :param date_columns: List of columns indices to be converted.
     """
     error_col_indices = []
-    
+
     for col in date_columns:
-    
         try:
+            # Handle NaN values by only converting non-NaN values to int, otherwise leave as NaN
+            df.iloc[:, col] = df.iloc[:, col].apply(lambda x: int(x) if not pd.isna(x) else x)
+            
             # Convert to string, ensuring it's in the correct format even if not initially recognized as such
-            df.iloc[:,col] = df.iloc[:,col].astype(str)
-            # Parse the date using datetime.strptime and then format it into YYYY-MM-DD
-            df.iloc[:,col] = df.iloc[:,col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d'))
+            df.iloc[:, col] = df.iloc[:, col].apply(lambda x: str(int(x)) if not pd.isna(x) else x)
+
+            # Back fill leading zero for dates with length less than 6
+            df.iloc[:, col] = df.iloc[:, col].apply(lambda x: x.zfill(6) if not pd.isna(x) and len(x) < 6 else x)
+
+            # Parse the date using datetime.strptime and then format it into YYYY-MM-DD, skipping NaN values
+            df.iloc[:, col] = df.iloc[:, col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d') if not pd.isna(x) else x)
+
         except ValueError:
             error_col_indices.append(col)
         
-    print(f'Errors on columns  {error_col_indices}')
-    print(f'Date columns {date_columns}')
+    #print(f'Errors on columns  {error_col_indices}')
     
     return df
 
