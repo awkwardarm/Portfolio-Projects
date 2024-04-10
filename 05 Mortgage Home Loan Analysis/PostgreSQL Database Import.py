@@ -3,26 +3,14 @@ import pandas as pd
 from datetime import datetime
 import psycopg2
 from psycopg2.extras import execute_values
+from sql_commands import create_table
 from sql_table_schema_parser import SQLTableSchemaParser
 
 
 def main():
-    process_files(folder_path, table_name)
-
-
-# Database connection parameters
-db_params = {
-    "dbname": "mortgagesfm",
-    "user": "postgres",
-    "password": "acidponyunicornflubber",
-    "host": "localhost",
-    "port":"5432"
-}
-
-
-# Replace '/path/to/your/csv/folder' with the actual folder path
-folder_path = "Y:\FannieMaeMortgageData\TestCsv"
-table_name = 'mortgagesfm.sf_loan_performance'
+    #process_files(folder_path, table_name)
+    df_dates = preprocess_dates(df=df, date_columns=date_col_indices)
+    print(df_dates.dtypes)
 
 
 """
@@ -66,17 +54,49 @@ def preprocess_dates(df, date_columns):
     :param df: DataFrame with data.
     :param date_columns: List of columns indices to be converted.
     """
+    error_col_indices = []
+    
     for col in date_columns:
-        # Convert to string, ensuring it's in the correct format even if not initially recognized as such
-        df.iloc[:,col] = df.iloc[:,col].astype(str)
-        # Parse the date using datetime.strptime and then format it into YYYY-MM-DD
-        df.iloc[:,col] = df.iloc[:,col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d'))
+    
+        try:
+            # Convert to string, ensuring it's in the correct format even if not initially recognized as such
+            df.iloc[:,col] = df.iloc[:,col].astype(str)
+            # Parse the date using datetime.strptime and then format it into YYYY-MM-DD
+            df.iloc[:,col] = df.iloc[:,col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d'))
+        except ValueError:
+            error_col_indices.append(col)
+        
+    print(f'Errors on columns  {error_col_indices}')
+    print(f'Date columns {date_columns}')
+    
+    return df
+
+
+'''INPUTS'''
 
 test_file = 'Y:\FannieMaeMortgageData\TestCsv\sf-loan-performance-data-sample.csv' 
 
 df = pd.read_csv(test_file, header=None, delimiter='|')
 
-print(df.head())
+# Database connection parameters
+db_params = {
+    "dbname": "mortgagesfm",
+    "user": "postgres",
+    "password": "acidponyunicornflubber",
+    "host": "localhost",
+    "port":"5432"
+}
 
-# if __name__ == "__main__":
-#     main()
+# Instantiate parser
+sql_parser = SQLTableSchemaParser(sql_command=create_table)
+
+# Get schema and date columns
+date_col_indices = sql_parser.get_date_col_indices()
+
+# Replace '/path/to/your/csv/folder' with the actual folder path
+folder_path = "Y:\FannieMaeMortgageData\TestCsv"
+table_name = 'mortgagesfm.sf_loan_performance'
+
+
+if __name__ == "__main__":
+    main()
