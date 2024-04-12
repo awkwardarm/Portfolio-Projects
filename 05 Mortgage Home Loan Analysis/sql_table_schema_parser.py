@@ -8,6 +8,7 @@ class SQLTableSchemaParser:
         self.schema_list = self.get_schema_list()
         self.date_col_indices = self.get_date_col_indices()
         self.bool_col_indices = self.get_bool_col_indices()
+        self.indices_by_type = self.get_indices_by_type()
 
 
     def get_schema_dict(self):
@@ -49,6 +50,21 @@ class SQLTableSchemaParser:
             if schema_list[i][1] == 'BOOLEAN':
                 bool_col_indices.append(i)
         return bool_col_indices
+    
+    def get_indices_by_type(self):
+        indices_by_type = {'BOOLEAN':[],
+                       'DATE':[],
+                       'INTEGER':[],
+                       'NUMERIC':[],
+                       'VARCHAR':[]}
+        schema_list = self.schema_list
+
+        for key,_ in indices_by_type.items():
+            for i, _ in enumerate(schema_list):
+                if key in schema_list[i][1]:
+                    indices_by_type[key].append(i)
+
+        return indices_by_type
 
 
     def remove_create_table_from_string(self):
@@ -67,6 +83,7 @@ if __name__ == "__main__":
     parser = SQLTableSchemaParser(create_table)
     parser.get_schema_list()
     # print(parser.get_date_col_indices())
+    print(parser.get_indices_by_type())
 
 
 

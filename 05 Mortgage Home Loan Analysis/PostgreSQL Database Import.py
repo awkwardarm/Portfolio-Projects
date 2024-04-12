@@ -5,11 +5,13 @@ import psycopg2
 from psycopg2.extras import execute_values
 from sql_commands import create_table
 from sql_table_schema_parser import SQLTableSchemaParser
+import numpy as np
 
 
 def main():
-    #process_files(folder_path, table_name, date_columns=date_col_indices)
-    pass
+    process_files(folder_path, table_name, date_columns=date_col_indices)
+    #preprocess_nan_to_null(df)
+    #pass
 
 def insert_data(df, conn, table_name):
     """
@@ -37,6 +39,7 @@ def process_files(folder_path, table_name, date_columns):
             if file_name.endswith('.csv'):
                 file_path = os.path.join(folder_path, file_name)
                 df = pd.read_csv(file_path, header=None, delimiter='|')
+                #df = df.replace({np.nan: None})
                 preprocess_dates(df, date_columns=date_columns)
                 preprocess_booleans(df, bool_columns=bool_col_indices)
                 insert_data(df, conn, table_name)
@@ -62,9 +65,12 @@ def preprocess_dates(df, date_columns):
             df.iloc[:, col] = df.iloc[:, col].apply(lambda x: x.zfill(6) if not pd.isna(x) and len(x) < 6 else x)
 
             # Parse the date using datetime.strptime and then format it into YYYY-MM-DD, skipping NaN values
-            #df.iloc[:, col] = df.iloc[:, col].apply(lambda x: datetime.strptime(x, '%m%Y').strftime('%Y-%m-%d') if not pd.isna(x) else x)
-            df.iloc[:, col] = pd.to_datetime(df.iloc[:, col], format='%m%Y', errors='coerce').dt.strftime('%Y-%m-%d')
+            df.iloc[:, col] = pd.to_datetime(df.iloc[:, col], format='%m%Y', errors='coerce')
 
+            # Replace NaT values with None, making it compatible for SQL insertion
+            df.iloc[:, col] = df.iloc[:, col].apply(lambda x: None if pd.isna(x) else x)
+
+            #print(df[col].dtype)
         except ValueError:
             error_col_indices.append(col)
         
@@ -87,18 +93,19 @@ def preprocess_booleans(df, bool_columns):
 
 def convert_to_bool(x):
     if x == 'N' or x == 'n':
-        return True
-    elif x == "Y" or x == 'y':
         return False
+    elif x == "Y" or x == 'y':
+        return True
     else:
         return None    
 
 
 '''INPUTS'''
 
-test_file = 'Y:\FannieMaeMortgageData\TestCsv\sf-loan-performance-data-sample.csv' 
-
+#test_file = 'Y:\FannieMaeMortgageData\TestCsv\sf-loan-performance-data-sample.csv' 
+test_file = '05 Mortgage Home Loan Analysis/test_csv_folder/2023_sample.csv'
 df = pd.read_csv(test_file, header=None, delimiter='|')
+
 
 # Database connection parameters
 db_params = {
@@ -113,13 +120,15 @@ db_params = {
 sql_parser = SQLTableSchemaParser(sql_command=create_table)
 
 # Get schema and date columns
-date_col_indices = sql_parser.get_date_col_indices()
+
+date_col_indices = sql_parser.indices_by_type['DATE']
 
 # Indices of columns to be converted to bool
-bool_col_indices = sql_parser.get_bool_col_indices()
+bool_col_indices = sql_parser.indices_by_type['BOOLEAN']
 
 # Replace '/path/to/your/csv/folder' with the actual folder path
-folder_path = "Y:\FannieMaeMortgageData\TestCsv"
+#folder_path = "Y:\FannieMaeMortgageData\TestCsv"
+folder_path = '05 Mortgage Home Loan Analysis/test_csv_folder'
 table_name = 'mortgagesfm.sf_loan_performance'
 
 
