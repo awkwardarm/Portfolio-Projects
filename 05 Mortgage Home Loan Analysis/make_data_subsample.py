@@ -33,12 +33,12 @@ def data_sampler(directory_path, sampling_fraction, chunk_size):
 
     final_sampled_df = pd.concat(sampled_dfs, ignore_index=True)
 
-    final_sampled_df.to_csv('/Users/matthewtryba/Desktop/sampled_data.csv', sep="|", header=None, index=False)
+    final_sampled_df.to_csv('/Users/matthewtryba/Desktop/subsampled_data.csv', sep="|", header=None, index=False)
 
 '''INPUTS'''
 
 # Define your directory path and other parameters as before
-directory_path = '/Users/matthewtryba/Desktop/chunktest'
+directory_path = '/Volumes/MT FATBOY/FannieMaeMortgageData/Performance_All'
 sampling_fraction = 0.005
 chunk_size = 10000
 
