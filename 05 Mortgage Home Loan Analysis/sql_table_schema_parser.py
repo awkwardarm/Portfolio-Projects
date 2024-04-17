@@ -1,5 +1,10 @@
 import re
 from sql_commands import create_table
+import pandas as pd
+import numpy as np
+from decimal import Decimal
+from datetime import datetime, date, time, timedelta
+
 
 class SQLTableSchemaParser:
     def __init__(self, sql_command):
@@ -79,11 +84,41 @@ class SQLTableSchemaParser:
             return self.sql_command
 
 
+    def map_postgresql_to_python_datatypes(self):
+
+        # get postgresql schema as dictionary
+        schema_dict = self.get_schema_dict()
+
+        # pre process
+
+        postgres_to_pandas = {
+            'integer': 'int64',
+            'bigint': 'int64',
+            'smallint': 'int32',
+            'decimal': 'float64',  # Changed to float64 for general use; use 'object' if needing Decimal for precision
+            'numeric': 'float64',  # Same note as for 'decimal'
+            'real': 'float32',
+            'double precision': 'float64',
+            'char': 'object',  # 'object' in pandas corresponds to strings and more complex types
+            'varchar': 'object',
+            'text': 'object',
+            'bytea': 'object',  # Handling binary data as objects
+            'boolean': 'bool',
+            'date': 'datetime64[ns]',  # pandas datetime type
+            'timestamp': 'datetime64[ns]',
+            'time': 'datetime64[ns]',  # No specific pandas type for time only; consider 'object' if storing time only
+            'interval': 'timedelta64[ns]',  # pandas timedelta type
+            'array': 'object'  # Arrays handled as objects, specific handling might be needed
+            }
+
+
+        pandas_dtypes = {col: postgres_to_pandas[str(pg_type).lower().split(sep='(')[0]] for col, pg_type in schema_dict.items()}
+
+        return pandas_dtypes
+
 if __name__ == "__main__":
     parser = SQLTableSchemaParser(create_table)
-    parser.get_schema_list()
-    # print(parser.get_date_col_indices())
-    print(parser.get_indices_by_type())
+    print(parser.map_postgresql_to_python_datatypes())
 
 
 
