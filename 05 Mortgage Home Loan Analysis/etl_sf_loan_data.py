@@ -3,6 +3,14 @@ from pandas_schema import pandas_schema
 
 
 def main():
+
+    #indices_by_type = get_indices_by_type(schema_list)
+
+    #preprocess_dates(sf_loan_performance, indices_by_type)
+
+    # preprocess_booleans(sf_loan_performance, indices_by_type)
+
+    # cast_types(sf_loan_performance, indices_by_type)
     pass
 
 
@@ -53,6 +61,31 @@ def preprocess_dates(df, indices_by_type):
     return df
 
 
+def preprocess_dates_faster(df, indices_by_type):
+    """
+    Converts date columns from MMYYYY to YYYY-MM-DD format, safely handling NaN values.
+    :param df: DataFrame with data.
+    :param indices_by_type: Dictionary with 'datetime64[ns]' key pointing to list of column indices.
+    """
+    error_col_indices = []
+
+    for col in indices_by_type['datetime64[ns]']:
+        try:
+            # Direct conversion to string and zero-filling
+            df.iloc[:, col] = df.iloc[:, col].astype(str).str.zfill(6)
+
+            # Convert to datetime format, specifying the original format to speed up parsing
+            df.iloc[:, col] = pd.to_datetime(df.iloc[:, col], format='%m%Y', errors='coerce')
+        
+        except ValueError:
+            error_col_indices.append(col)
+        
+    # Optionally, log errors (if frequent):
+    # if error_col_indices:
+    #     print(f'Errors on columns  {error_col_indices}')
+    
+    return df
+
 def preprocess_booleans(df, indices_by_type):
     """
     Converts columns with "Y" and "N" values to boolean. All other values are set to NULL.
@@ -82,15 +115,15 @@ def cast_types(df, indices_by_type):
 
 '''INPUTS'''
 
-
-#file_path = '/Users/matthewtryba/Desktop/subsampled_data.csv'
-file_path = 'Y:\FannieMaeMortgageData\subsampled_data.csv'
 columns = list(pandas_schema.keys())
 datatypes = list(pandas_schema.values())
 schema_list = list(zip(columns, datatypes))
+file_path = '/Users/matthewtryba/Desktop/subsampled_data.csv'
+#file_path = 'Y:\FannieMaeMortgageData\subsampled_data.csv'
+
 sf_loan_performance = pd.read_csv(file_path, sep='|', header=None, names=columns, low_memory=False)
 
-print(sf_loan_performance.head())
+
 
 if __name__ == "__main__":
     main()
