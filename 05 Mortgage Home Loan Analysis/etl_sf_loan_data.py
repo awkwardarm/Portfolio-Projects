@@ -1,5 +1,5 @@
-import pandas as pd
-from pandas_schema import pandas_schema
+#import pandas as pd
+#from pandas_schema import pandas_schema
 
 
 def main():
@@ -61,7 +61,7 @@ def preprocess_dates(df, indices_by_type):
     return df
 
 
-def preprocess_dates_faster(df, indices_by_type):
+def process_dates(df, indices_by_type):
     """
     Converts date columns from MMYYYY to YYYY-MM-DD format, safely handling NaN values.
     :param df: DataFrame with data.
@@ -85,6 +85,7 @@ def preprocess_dates_faster(df, indices_by_type):
     #     print(f'Errors on columns  {error_col_indices}')
     
     return df
+
 
 def preprocess_booleans(df, indices_by_type):
     """
