@@ -80,7 +80,7 @@ directory_out = "C:\\Users\\matth\\Desktop"
 directory_path = "Y:\FannieMaeMortgageData\Performance_All"
 #directory_path = "Y:\\FannieMaeMortgageData\\TestCsv"
 #output_file_name = "test.csv"
-output_file_name = "subsampled_data_" + str(100*sampling_fraction) + "_pct_.csv"
+output_file_name = "subsampled_data_" + str(100*sampling_fraction) + "_pct.csv"
 
 if __name__ == "__main__":
     main()
