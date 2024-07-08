@@ -1,3 +1,9 @@
+'''
+Library of utility funtions for automation scripts. 
+'''
+
+
+from playwright.sync_api import Playwright, sync_playwright, expect
 import datetime
 from icalendar import Calendar
 import send2trash
@@ -18,6 +24,7 @@ def get_next_sunday():
     if days_ahead <= 0:  # If today is Sunday, get the next Sunday
         days_ahead += 7
 
+
 def get_next_sunday_from_tomorrow():
     '''
     Takes no input. 
@@ -33,6 +40,8 @@ def get_next_sunday_from_tomorrow():
         days_ahead += 7
     
     return tomorrow + datetime.timedelta(days=days_ahead)
+    # return datetime.date.today() # Manual override when it's Saturday
+
 
 def get_weekday() -> str:
     '''
@@ -46,6 +55,7 @@ def get_weekday() -> str:
     weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     return weekdays[weekday_num]
 
+
 def get_weekday_tomorrow() -> str:
     '''
     Takes no input.
@@ -57,6 +67,7 @@ def get_weekday_tomorrow() -> str:
     weekday_num = tomorrow.weekday()
     weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     return weekdays[weekday_num]
+
 
 def add_ics_to_ical(ics_file_path: str, calendar: str):
     '''
@@ -96,3 +107,18 @@ def add_ics_to_ical(ics_file_path: str, calendar: str):
     # send .ics file to trash
     send2trash.send2trash(ics_file_path)
 
+
+def save_playwright_context_storage(context, storage_state_path):
+    context.storage_state(path=storage_state_path)
+
+
+def load_playwright_context_storage(browser, storage_state_path):
+    return browser.new_context(storage_state=storage_state_path)
+
+
+def is_chromium_running(page):
+    try:
+        page.title()
+        return True
+    except:
+        return False
