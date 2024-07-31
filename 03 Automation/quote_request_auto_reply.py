@@ -111,20 +111,9 @@ def check_messages(page, inputs):
 # ------------------ INPUTS -----------------------#
 
 inputs = {
-    'rate':['#proposal_price', 2750], 
+    'rate':['#proposal_price', 0000], 
     'project_type':['#proposal_description', 'Full Production (per song)'], 
-    'message':['#proposal_message', 
-"""Thank you for reaching out. I'm away from my studio at the moment and I will personally respond as soon as I return.
-               
-Your best songs in my hands will reach their full potential, crafted into professional, polished records that resonate with your audience. Every step of the entire process (pre-production, track production, vocal production, mixing, and mastering) is under my umbrella. From demo to master, there's no need to hire additional engineers, session players, or producers. I'm a master of the craft and I find no greater joy than evoking emotion out of the speakers.
-               
-If you don't need full production, I'll review and edit the quote.
-               
-Lastly, please send me a link to your most effective songs. I'd love to hear your best work.
-               
-I look forward to listening to your songs and connecting,
-               
--Matthew Tryba"""]
+    'message':['#proposal_message', "Sample Message"]
 }
 
 
