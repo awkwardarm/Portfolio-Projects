@@ -40,18 +40,23 @@ def get_next_sunday_from_tomorrow():
         days_ahead += 7
     
     return tomorrow + datetime.timedelta(days=days_ahead)
-    # return datetime.date.today() # Manual override when it's Saturday
+    # return datetime.date.today() + datetime.timedelta(days=days_ahead) # Manual override when it's Saturday
 
 
-def get_weekday() -> str:
+def get_weekday(date):
     '''
-    Takes no input.
-
     Returns:
         str: The name of the current weekday.
     '''
 
-    weekday_num = datetime.date.today().weekday()
+    weekday_num = datetime.date.weekday(date)
+    weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    return weekdays[weekday_num]
+
+
+def get_weekday_from_date_string(date_string):
+    date = datetime.datetime.strptime(date_string, '%Y-%m-%d')
+    weekday_num = datetime.date.weekday(date)
     weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     return weekdays[weekday_num]
 
@@ -122,3 +127,18 @@ def is_chromium_running(page):
         return True
     except:
         return False
+    
+
+def move_file(path_name=str, filename=str, new_name=str, output_folder=str):
+    '''
+    Moves files in os. \n
+    If not renaming file, set new_name =''
+    '''
+
+    # Check to see if file is to be renamed
+    if new_name != '':
+        destination = os.path.join(output_folder, new_name)
+    else:
+        destination = os.path.join(output_folder, filename)
+    source = os.path.join(path_name, filename)
+    os.rename(source, destination)
