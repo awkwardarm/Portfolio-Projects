@@ -14,7 +14,7 @@ video_path = r"C:\Users\matth\Dropbox\C2C\subtitle-generator\music-data.mp4"
 MAX_DURATION = 2.5
 WRAP_LENGTH = 40
 
-# Set device to GPU if available
+# Set device to GPU if availabl
 device = torch.device(
     "cuda:0"
     if torch.cuda.is_available()
