@@ -1,6 +1,6 @@
-'''
+"""
 Automated court and event registration for pickleball. 
-'''
+"""
 
 from playwright.sync_api import Playwright, sync_playwright, expect
 import os
@@ -11,7 +11,7 @@ import datetime
 from tryba_auto_functions import (
     add_ics_to_ical,
     get_next_sunday_from_tomorrow,
-    get_weekday_tomorrow
+    get_weekday_tomorrow,
 )
 
 
@@ -26,12 +26,12 @@ def main(reservation_type: str):
         browser = playwright.chromium.launch(
             headless=False, slow_mo=500, downloads_path="/Users/matthewtryba/Downloads"
         )
-        
+
         context = browser.new_context()
         page = context.new_page()
 
         # Login
-        page.goto("https://my.lifetime.life/login.html")
+        page.goto("https://my.website.life/login.html")
         page.wait_for_load_state()
         page.get_by_placeholder("Username, Email, or Member ID").fill(player.username)
         page.get_by_placeholder("Password").fill(player.password)
@@ -48,7 +48,7 @@ def main(reservation_type: str):
 
             # Go to next week's pickle schedule
             pickle_schedule = (
-                "https://my.lifetime.life/clubs/co/centennial/classes.html?teamMemberView=true&mode=week&selectedDate="
+                "https://my.website.life/clubs/co/centennial/classes.html?teamMemberView=true&mode=week&selectedDate="
                 + next_sunday_date
                 + "&interest=Pickleball+Open+Play&location=Centennial"
             )
@@ -73,7 +73,6 @@ def main(reservation_type: str):
             selector = ".transition-wrapper > div:nth-child(1) > p:nth-child(5) > button:nth-child(1)"
             page.wait_for_selector(selector)
             page.locator(selector).click()
-            # page.get_by_role("button", name="Reserve").click()
             page.wait_for_load_state()
 
             # Click Accept Waiver
@@ -81,7 +80,7 @@ def main(reservation_type: str):
             page.get_by_test_id("finishBtn").click()
             page.wait_for_load_state()
 
-            if player == "matthew_tryba":
+            if player == "matthew":
 
                 # Add to calendar
                 page.get_by_role("button", name="Add to Calendar").click()
@@ -111,7 +110,7 @@ def main(reservation_type: str):
 
             # Concat into URL
             private_court_url = (
-                "https:/my.lifetime.life/account/reservations.html?resourceId=ZXhlcnA6MTk0YnI"
+                "https:/my.website.life/account/reservations.html?resourceId=ZXhlcnA6MTk0YnI"
                 + desired_court
                 + "OjcwMTU5MTE0MTUwOA==&start="
                 + str(reservation_day)
@@ -144,13 +143,8 @@ def main(reservation_type: str):
             with sync_playwright() as playwright:
                 run(playwright, player=player, reso_day=reso_day, reso_hour=reso_hour)
 
-        # Private court reservations while on vacation
-        # if reservation_type.lower() == "private court":
-        #     with sync_playwright() as playwright:
-        #         run(playwright, player=player, reso_day=reso_day, reso_hour=reso_hour)
-
         # Private court reservations only for "Matthew Tryba"
-        elif reservation_type.lower() == 'private court' and player == matthew_tryba:
+        elif reservation_type.lower() == "private court" and player == matthew:
             with sync_playwright() as playwright:
                 run(playwright, player=player, reso_day=reso_day, reso_hour=reso_hour)
 
@@ -173,10 +167,10 @@ class Player:
         self.reservations_open = reservations_open
 
 
-matthew_tryba = Player(
+matthew = Player(
     name="Matthew Tryba",
-    username=os.getenv("my_lifetime_life_username"),
-    password=os.getenv("my_lifetime_life_password"),
+    username=os.getenv("my_website_life_username"),
+    password=os.getenv("my_website_life_password"),
     reservations_open={
         "Tuesday": [16],
         "Wednesday": [18],
@@ -186,10 +180,10 @@ matthew_tryba = Player(
     },
 )
 
-vinny_nguyen = Player(
+vincent = Player(
     name="Vinny Nguyen",
-    username=os.getenv("my_lifetime_life_vinny_nguyen_username"),
-    password=os.getenv("my_lifetime_life_vinny_nguyen_password"),
+    username=os.getenv("my_website_life_vincent_username"),
+    password=os.getenv("my_website_life_vincent_password"),
     reservations_open={
         "Wednesday": [18],
         "Friday": [18],
@@ -200,8 +194,6 @@ vinny_nguyen = Player(
 
 
 """ INPUTS """
-
-# Note: use firefox to copy CSS Selector to paste into dictionary
 open_play_schedule = {
     "Tuesday": {
         16: "div.day:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > p:nth-child(3) > a:nth-child(1) > span:nth-child(1)"
@@ -231,9 +223,9 @@ court_3_id = "2MjAx"
 private_court_reservations = {
     # Add more reservations for the same day as needed
     "Monday": [{"time": "16:00:00", "court": court_4_id, "duration": 90}],
-    #"Tuesday": [{"time": "11:00:00", "court": court_3_id, "duration": 90}],
+    "Tuesday": [{"time": "11:00:00", "court": court_3_id, "duration": 90}],
     "Wednesday": [{"time": "15:00:00", "court": court_4_id, "duration": 90}],
-    #"Thursday": [{"time": "17:00:00", "court": court_3_id, "duration": 60}],
+    "Thursday": [{"time": "17:00:00", "court": court_3_id, "duration": 60}],
     "Friday": [{"time": "16:00:00", "court": court_9_id, "duration": 90}],
     "Saturday": [{"time": "12:00:00", "court": court_4_id, "duration": 90}],
     "Sunday": [{"time": "12:00:00", "court": court_9_id, "duration": 90}],
@@ -242,22 +234,16 @@ private_court_reservations = {
 # Get date for next week
 today = datetime.date.today()
 reservation_day = today + datetime.timedelta(days=8)
-# reservation_day = '2024-06-14' # for testing and manual override
 
 # Get target hour for open play reservation. Reservations are made 7 days and 22 hours in advance
-reso_hour = (datetime.datetime.now().hour - 2)
-# reso_hour = 8 # For testing and manual override
+reso_hour = datetime.datetime.now().hour - 2
 
 # Get number of weekday and convert it to string for that day
 reso_day = get_weekday_tomorrow()
-# reso_day = "Saturday" # For testing and manual override
 
-players = [matthew_tryba, vinny_nguyen]
+players = [matthew, vincent]
 
 if __name__ == "__main__":
-    # main(reservation_type="Open Play") # For testing and manual override
-    # main(reservation_type="Private Court") # For testing and manual override
-
     if len(sys.argv) > 1:
         main(sys.argv[1])
     else:
