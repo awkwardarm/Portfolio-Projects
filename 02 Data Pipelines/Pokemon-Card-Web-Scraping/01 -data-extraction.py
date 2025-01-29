@@ -8,7 +8,9 @@ import os
 def main():
 
     # Import collection.csv
-    csv_file = "/Users/matthewtryba/Documents/GitHub/pokemon-tcg-pocket/collection.csv"
+    csv_file = (
+        "Portfolio-Projects/02 Data Pipelines/Pokemon-Card-Web-Scraping/collection.csv"
+    )
     collection = pd.read_csv(csv_file)
     # make column name_url and remove all white space and lower
     collection["name_url"] = collection["name"].apply(
@@ -29,9 +31,7 @@ def main():
         soup = url_to_soup(url)
 
         # Save Soup to HTML file
-        folder_path = (
-            "/Users/matthewtryba/Documents/GitHub/pokemon-tcg-pocket/card-html-files"
-        )
+        folder_path = "Portfolio-Projects/02 Data Pipelines/Pokemon-Card-Web-Scraping/card-html-files"
         file_name = f"{card_set} - {card_number} - {row['name']}.html"
         file_path = os.path.join(folder_path, file_name)
         with open(file_path, "w", encoding="utf-8") as file:
