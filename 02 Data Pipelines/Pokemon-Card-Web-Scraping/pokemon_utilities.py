@@ -15,7 +15,6 @@ class PokemonCard:
         # Call methods on init
         self.ability_present, self.num_abilities = self._ability_present()
         self.extract_attributes(self.attributes_all)
-        # // self.extract_card_number()
 
         # Check if card has an ability, if so extract it
         if self.ability_present:
@@ -168,10 +167,6 @@ class PokemonCard:
         else:
             return True, len(ability_labels)
 
-        # elif ability_labels.text.strip().lower() == "ability":
-        #     return True
-        # return False
-
     def extract_attributes(self, attributes_list):
         """Extracts pokemon card attributes linked to hrefs from a list of attributes
 
@@ -203,8 +198,6 @@ class PokemonCard:
 
         # Get description if not a pokemon
         if "type" in self.stats and self.stats["type"].lower() != "pokemon":
-            # // first_span = result[0].find("span")
-            # //. span_text = first_span.get_text(strip=True)
             text = self._extract_text_with_energy_labels(result[0])
             self.stats["description"] = text
 
@@ -223,20 +216,6 @@ class PokemonCard:
                 # Get the text content of the next sibling <div> element and convert it to an integer
                 hp_value = int(hp_value_div.text.strip())
                 self.stats["hp"] = hp_value
-
-    # def extract_resistance(self):
-    #     # Find the <div> element containing "Resistance:"
-    #     resistance_div = self.soup.find(
-    #         "div", string=lambda text: text and "Resistance:" in text
-    #     )
-    #     if resistance_div:
-    #         # Extract the following text
-    #         resistance_text = (
-    #             resistance_div.get_text(strip=True)
-    #             .replace("Resistance   :", "")
-    #             .strip()
-    #         )
-    #         self.stats["resistance"] = resistance_text
 
     def extract_attacks(self):
         """Extracts all attacks and their costs from a pokemon card."""
@@ -286,13 +265,6 @@ class PokemonCard:
                     attacks_name[attack_number] = attack_name
 
                 except (ValueError, IndexError):
-                    # print(
-                    #     f"The last 'attack' element '{text_split[-1] if text_split else 'None'}' is not a valid integer."
-                    # )
-                    # attacks_name[attack_number] = span.next_sibling.strip()
-                    # print(span.next_sibling.strip())
-
-                    # if the last element is not a number, then the "attack" is likely an ability description
                     continue
 
                 attack_number += 1
@@ -415,24 +387,6 @@ class PokemonCard:
         self.stats["abilities_name"] = abilities_name
         self.stats["abilities_description"] = abilities_description
         # self.stats["ability_description"] = text
-
-    # def extract_card_number(self):
-    #     target_class = "sc-hoZJAX dbGtTC"  # "sc-ia-DHra dJiVFO"
-    #     results = self._get_soup_from_class(target_class)
-    #     multi_digit_integers = []
-
-    #     for result in results:
-    #         text = result.get_text(strip=True)
-    #         # Find all integers with more than one digit (including leading zeros)
-    #         numbers = re.findall(r"\b\d{2,}\b", text)
-    #         for number in numbers:
-    #             if number:
-    #                 multi_digit_integers.append(number)
-
-    #     for n in multi_digit_integers:
-    #         self.stats["card_number"] = n
-
-    #     return multi_digit_integers
 
     def extract_evolve_from(self):
         target_class = "sc-fafqur kGiwSM"  # "sc-bzAlbP hkCTME"
