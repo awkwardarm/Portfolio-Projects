@@ -5,7 +5,8 @@ import subprocess
 
 
 def main(folder_path):
-    """Sorts audio files inside a folder and creates mp3s.
+    """
+    This script automates client deliverables by sorting audio files and creating mp3s. On average, ~ 50-150 audio files are processxed.
 
     Args:
         folder_path (str): Path to folder to sort, rename, and create mp3s.

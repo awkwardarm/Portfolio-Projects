@@ -1,14 +1,13 @@
 import pandas as pd
 import os
 import glob
-from datetime import datetime
 import numpy as np
 
 
 def main():
     """
-    Data pipeline for financial transactions. \n
-    Iterates through folders of csv files and applies per folder data cleanup. \n
+    Data pipeline for financial transactions across multiple institutions. \n
+    Iterates through folders of .csv files and applies per folder data cleanup. \n
     Outputs single .csv file of all cleaned transactions.
     """
 

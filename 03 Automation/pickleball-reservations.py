@@ -1,5 +1,6 @@
 """
-Automated court and event registration for pickleball. 
+Automates court and event registration for pickleball. The script is triggered with a cron job at a specific time to make reservations for the following week. 
+The script logs in to the website, navigates to the desired reservation page, and clicks the desired reservation.
 """
 
 from playwright.sync_api import Playwright, sync_playwright, expect
@@ -80,7 +81,7 @@ def main(reservation_type: str):
             page.get_by_test_id("finishBtn").click()
             page.wait_for_load_state()
 
-            if player == "matthew":
+            if player == "player_one":
 
                 # Add to calendar
                 page.get_by_role("button", name="Add to Calendar").click()
@@ -143,8 +144,8 @@ def main(reservation_type: str):
             with sync_playwright() as playwright:
                 run(playwright, player=player, reso_day=reso_day, reso_hour=reso_hour)
 
-        # Private court reservations only for "Matthew Tryba"
-        elif reservation_type.lower() == "private court" and player == matthew:
+        # Private court reservations only for "Player One"
+        elif reservation_type.lower() == "private court" and player == player_one:
             with sync_playwright() as playwright:
                 run(playwright, player=player, reso_day=reso_day, reso_hour=reso_hour)
 
@@ -167,10 +168,10 @@ class Player:
         self.reservations_open = reservations_open
 
 
-matthew = Player(
-    name="Matthew Tryba",
-    username=os.getenv("my_website_life_username"),
-    password=os.getenv("my_website_life_password"),
+player_one = Player(
+    name="Player One",
+    username=os.getenv("my_website_username"),
+    password=os.getenv("my_website_password"),
     reservations_open={
         "Tuesday": [16],
         "Wednesday": [18],
@@ -180,10 +181,10 @@ matthew = Player(
     },
 )
 
-vincent = Player(
-    name="Vinny Nguyen",
-    username=os.getenv("my_website_life_vincent_username"),
-    password=os.getenv("my_website_life_vincent_password"),
+player_two = Player(
+    name="Player Two",
+    username=os.getenv("my_website_player_two_username"),
+    password=os.getenv("my_website_player_two_password"),
     reservations_open={
         "Wednesday": [18],
         "Friday": [18],
@@ -241,7 +242,7 @@ reso_hour = datetime.datetime.now().hour - 2
 # Get number of weekday and convert it to string for that day
 reso_day = get_weekday_tomorrow()
 
-players = [matthew, vincent]
+players = [player_one, player_two]
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:

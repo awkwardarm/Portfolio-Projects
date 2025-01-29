@@ -3,15 +3,14 @@ import pandas as pd
 import librosa
 import numpy as np
 
+"""
+This script uses librosa to extracts an aggregated vector of audio features from drum samples in the Native Instruments library and saves the extracted features as a JSON file for training neural networks in PyTorch.
+"""
 
-# Root directory of Native Instruments sounds
-# root_directory = r"Y:\SOUNDS\Native Instruments"
-# root_directory = r"G:\Native Instruments"
 root_directory = r"C:\Users\matth\Desktop\Native Instruments"
 
 
 def main():
-    # columns = ['name', 'library', 'drum_type', 'file_path', 'mfcc', 'spectral_centroid', 'zcr']
     columns = ["name", "library", "drum_type", "file_path", "librosa_features"]
     df = pd.DataFrame(columns=columns)
 
@@ -28,7 +27,6 @@ def main():
         df = pd.concat([df, pd.DataFrame(rows_to_add)], ignore_index=True)
 
     df.to_json("ni-drums.json", orient="records", indent=4)
-    df.to_pickle("ni-drums.pkl.gz", compression="gzip")
 
 
 def extract_audio_features(file_path):
@@ -120,9 +118,6 @@ def process_drum_file(file_name, subfolder, dir_name):
         "drum_type": parent_directory_name.lower(),
         "file_path": file_path,
         "librosa_features": features,
-        # 'mfcc': mfcc,
-        # 'spectral_centroid': spectral_centroid,
-        # 'zcr': zcr
     }
 
 

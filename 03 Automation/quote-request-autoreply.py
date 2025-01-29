@@ -1,11 +1,13 @@
 """
-This script autoreplies to project quote requests when potential clients reach out on an online marketplace. 
+Autoreplies project quote requests to potential clients who contact me on a third party online marketplace. 
+The marketplace times how long I take to respond to messages, so this script is designed to respond within a few minutes of receiving a message. 
+The script logs in to the marketplace, checks for new messages, and sends a pre-written response to quote requests. 
+The script runs continuously, checking for new messages every few seconds.
 """
 
 from playwright.sync_api import Playwright, sync_playwright
 import time
 import logging
-from logging.handlers import RotatingFileHandler
 import os
 import numpy as np
 from datetime import datetime, timedelta
@@ -176,7 +178,7 @@ def check_messages(page, inputs):
 
 
 inputs = {
-    "rate": ["#proposal_price", 3500],
+    "rate": ["#proposal_price", 1],  # Adjust rate to desired amount. $1 for testing
     "project_type": [
         "#proposal_description",
         "Includes: track production, vocal production, vocal arranging, mixing, and mastering. (Per Song)",
