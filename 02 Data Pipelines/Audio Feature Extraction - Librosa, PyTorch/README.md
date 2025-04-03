@@ -1,3 +1,1 @@
-This script uses the Python library Librosa to extract an aggregated vector of audio features and saves the extracted features to a JSON file.
-
-The script walks a directory containing audio files, noting their subfolders that contain classification data, and extracts features from the audio files. 
+This script uses the Python library Librosa to extract an aggregated vector of audio features and saves the extracted features to a JSON file. It walks a directory containing audio files, noting their subfolders that contain classification data, and extracts features from the audio files. 
