@@ -1,0 +1,1 @@
+Each folder contains a project. `tryba_auto_functions.py` is utility functions used in projects.

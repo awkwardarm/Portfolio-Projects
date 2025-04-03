@@ -1,4 +1,4 @@
-Collection of 
+Collection of professional and personal projects created by Matthew Tryba. 
 
 Suggested viewing order:
 
