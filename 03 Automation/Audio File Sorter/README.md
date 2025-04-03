@@ -1,0 +1,1 @@
+The script `audio-stem-sort.py` automates deliverables of audio assets to my music production clients by sorting a directory of audio files into organized subfolders. It also generates `.mp3` files using `ffmpeg` for select audio files.

@@ -1,0 +1,1 @@
+Reservations to play pickleball at my gym have become very comptetive. If you don't reserve a spot withing 5 minutes when the time slots open you will be relegated to the waitlist. I wrote a Playwright bot that is chron triggered so I never have to worry about making or missing a reservation again. Less admin, more pickleball!

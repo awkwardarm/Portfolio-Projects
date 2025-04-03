@@ -1,7 +1,7 @@
 """
-Autoreplies project quote requests to potential clients who contact me on a third party online marketplace. 
-The marketplace times how long I take to respond to messages, so this script is designed to respond within a few minutes of receiving a message. 
-The script logs in to the marketplace, checks for new messages, and sends a pre-written response to quote requests. 
+Autoreplies project quote requests to potential clients who contact me on a third party online marketplace.
+The marketplace times how long I take to respond to messages, so this script is designed to respond within a few minutes of receiving a message.
+The script logs in to the marketplace, checks for new messages, and sends a pre-written response to quote requests.
 The script runs continuously, checking for new messages every few seconds.
 """
 

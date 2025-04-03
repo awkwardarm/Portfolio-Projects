@@ -1,0 +1,1 @@
+The script `video-subtitle-generator.py` creates a `.srt` file containing timestamped subtitiles of suitiable length for screens. The `.srt` file can be imported into video editing software like Davinci Resolve for accurate subtitles perfectly matched to the video. OpenAI's Whisper model is used for transcription and the script employs cuda torch devices to speed up processing. 
